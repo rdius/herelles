@@ -1,0 +1,8 @@
+beautifulsoup4==4.11.1
+html2text==2020.1.16
+nltk==3.8.1
+PyPDF2==3.0.1
+python_dateutil==2.8.2
+python_magic==0.4.27
+sentence_transformers==2.2.2
+spacy==3.5.0

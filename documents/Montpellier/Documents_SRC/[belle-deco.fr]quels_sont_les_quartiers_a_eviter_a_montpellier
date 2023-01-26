@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-FR"> <!--<![endif]-->
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+<!--[if lt IE 9]>
+	<script src="https://www.belle-deco.fr/wp-content/themes/voice-child/js/html5.js"></script>
+<![endif]-->
+
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Quels sont les quartiers à éviter à Montpellier ? - Belle Déco</title><link rel="stylesheet" href="https://www.belle-deco.fr/wp-content/cache/min/1/87ccfb1a4b23e93641a2cce3e4513670.css" media="all" data-minify="1" />
+	<link rel="canonical" href="https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Quels sont les quartiers à éviter à Montpellier ? - Belle Déco" />
+	<meta property="og:description" content="Montpellier est l’un des départements français qui attirent le plus de visiteurs. La ville de Montpellier est un endroit séduisant à toute saison. Pourtant, Montpellier est classé dans les 15 villes les plus dangereuses de France. Quels que soient les motifs de votre séjour à Montpellier, il faut à tout prix sélectionner l’endroit le plus sûr [&hellip;]" />
+	<meta property="og:url" content="https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/" />
+	<meta property="og:site_name" content="Belle Déco" />
+	<meta property="article:published_time" content="2023-01-22T00:01:00+00:00" />
+	<meta property="article:modified_time" content="2023-01-22T02:46:19+00:00" />
+	<meta property="og:image" content="https://www.belle-deco.fr/wp-content/uploads/Montpellier.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="1275" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Tangi" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Écrit par" />
+	<meta name="twitter:data1" content="Tangi" />
+	<meta name="twitter:label2" content="Durée de lecture estimée" />
+	<meta name="twitter:data2" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/","url":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/","name":"Quels sont les quartiers à éviter à Montpellier ? - Belle Déco","isPartOf":{"@id":"https://www.belle-deco.fr/#website"},"primaryImageOfPage":{"@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/#primaryimage"},"image":{"@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/#primaryimage"},"thumbnailUrl":"https://www.belle-deco.fr/wp-content/uploads/Montpellier.jpg","datePublished":"2023-01-22T00:01:00+00:00","dateModified":"2023-01-22T02:46:19+00:00","author":{"@id":"https://www.belle-deco.fr/#/schema/person/adfe4a2c5c62b56a6b9f9a36e39189bf"},"breadcrumb":{"@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/"]}]},{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/#primaryimage","url":"https://www.belle-deco.fr/wp-content/uploads/Montpellier.jpg","contentUrl":"https://www.belle-deco.fr/wp-content/uploads/Montpellier.jpg","width":1920,"height":1275,"caption":"Montpellier"},{"@type":"BreadcrumbList","@id":"https://www.belle-deco.fr/quels-sont-les-quartiers-a-eviter-a-montpellier/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.belle-deco.fr/"},{"@type":"ListItem","position":2,"name":"Quels sont les quartiers à éviter à Montpellier ?"}]},{"@type":"WebSite","@id":"https://www.belle-deco.fr/#website","url":"https://www.belle-deco.fr/","name":"Belle Déco","description":"Des idées déco à la pelle","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.belle-deco.fr/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"fr-FR"},{"@type":"Person","@id":"https://www.belle-deco.fr/#/schema/person/adfe4a2c5c62b56a6b9f9a36e39189bf","name":"Tangi","image":{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://www.belle-deco.fr/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/176a1313c9b6c84687ef3ca7d97aebc7?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/176a1313c9b6c84687ef3ca7d97aebc7?s=96&d=mm&r=g","caption":"Tangi"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Belle Déco &raquo; Flux" href="https://www.belle-deco.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Belle Déco &raquo; Flux des commentaires" href="https://www.belle-deco.fr/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+
+
+<style id='vce_style-inline-css' type='text/css'>
+body, button, input, select, textarea {font-size: 1.6rem;}.vce-single .entry-headline p{font-size: 2.2rem;}.main-navigation a{font-size: 1.6rem;}.sidebar .widget-title{font-size: 1.8rem;}.sidebar .widget, .vce-lay-c .entry-content, .vce-lay-h .entry-content {font-size: 1.4rem;}.vce-featured-link-article{font-size: 5.2rem;}.vce-featured-grid-big.vce-featured-grid .vce-featured-link-article{font-size: 3.4rem;}.vce-featured-grid .vce-featured-link-article{font-size: 2.2rem;}h1 { font-size: 4.5rem; }h2 { font-size: 4.0rem; }h3 { font-size: 3.5rem; }h4 { font-size: 2.5rem; }h5 { font-size: 2.0rem; }h6 { font-size: 1.8rem; }.comment-reply-title, .main-box-title{font-size: 2.2rem;}h1.entry-title{font-size: 4.5rem;}.vce-lay-a .entry-title a{font-size: 3.4rem;}.vce-lay-b .entry-title{font-size: 2.4rem;}.vce-lay-c .entry-title, .vce-sid-none .vce-lay-c .entry-title{font-size: 2.2rem;}.vce-lay-d .entry-title{font-size: 1.5rem;}.vce-lay-e .entry-title{font-size: 1.4rem;}.vce-lay-f .entry-title{font-size: 1.4rem;}.vce-lay-g .entry-title a, .vce-lay-g .entry-title a:hover{font-size: 3.0rem;}.vce-lay-h .entry-title{font-size: 2.4rem;}.entry-meta div,.entry-meta div a,.vce-lay-g .meta-item,.vce-lay-c .meta-item{font-size: 1.4rem;}.vce-lay-d .meta-category a,.vce-lay-d .entry-meta div,.vce-lay-d .entry-meta div a,.vce-lay-e .entry-meta div,.vce-lay-e .entry-meta div a,.vce-lay-e .fn,.vce-lay-e .meta-item{font-size: 1.3rem;}body {background-color:#f0f0f0;}body,.mks_author_widget h3,.site-description,.meta-category a,textarea {font-family: 'Open Sans';font-weight: 400;}h1,h2,h3,h4,h5,h6,blockquote,.vce-post-link,.site-title,.site-title a,.main-box-title,.comment-reply-title,.entry-title a,.vce-single .entry-headline p,.vce-prev-next-link,.author-title,.mks_pullquote,.widget_rss ul li .rsswidget,#bbpress-forums .bbp-forum-title,#bbpress-forums .bbp-topic-permalink {font-family: 'Roboto Slab';font-weight: 400;}.main-navigation a,.sidr a{font-family: 'Roboto Slab';font-weight: 400;}.vce-single .entry-content,.vce-single .entry-headline,.vce-single .entry-footer{width: 600px;}.vce-lay-a .lay-a-content{width: 600px;max-width: 600px;}.vce-page .entry-content,.vce-page .entry-title-page {width: 600px;}.vce-sid-none .vce-single .entry-content,.vce-sid-none .vce-single .entry-headline,.vce-sid-none .vce-single .entry-footer {width: 600px;}.vce-sid-none .vce-page .entry-content,.vce-sid-none .vce-page .entry-title-page,.error404 .entry-content {width: 600px;max-width: 600px;}body, button, input, select, textarea{color: #444444;}h1,h2,h3,h4,h5,h6,.entry-title a,.prev-next-nav a,#bbpress-forums .bbp-forum-title, #bbpress-forums .bbp-topic-permalink,.woocommerce ul.products li.product .price .amount{color: #232323;}a,.entry-title a:hover,.vce-prev-next-link:hover,.vce-author-links a:hover,.required,.error404 h4,.prev-next-nav a:hover,#bbpress-forums .bbp-forum-title:hover, #bbpress-forums .bbp-topic-permalink:hover,.woocommerce ul.products li.product h3:hover,.woocommerce ul.products li.product h3:hover mark,.main-box-title a:hover{color: #a8a517;}.vce-square,.vce-main-content .mejs-controls .mejs-time-rail .mejs-time-current,button,input[type="button"],input[type="reset"],input[type="submit"],.vce-button,.pagination-wapper a,#vce-pagination .next.page-numbers,#vce-pagination .prev.page-numbers,#vce-pagination .page-numbers,#vce-pagination .page-numbers.current,.vce-link-pages a,#vce-pagination a,.vce-load-more a,.vce-slider-pagination .owl-nav > div,.vce-mega-menu-posts-wrap .owl-nav > div,.comment-reply-link:hover,.vce-featured-section a,.vce-lay-g .vce-featured-info .meta-category a,.vce-404-menu a,.vce-post.sticky .meta-image:before,#vce-pagination .page-numbers:hover,#bbpress-forums .bbp-pagination .current,#bbpress-forums .bbp-pagination a:hover,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce ul.products li.product .added_to_cart,.woocommerce #respond input#submit:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce ul.products li.product .added_to_cart:hover,.woocommerce #respond input#submit.alt,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.comments-holder .navigation .page-numbers.current,.vce-lay-a .vce-read-more:hover,.vce-lay-c .vce-read-more:hover{background-color: #a8a517;}#vce-pagination .page-numbers,.comments-holder .navigation .page-numbers{background: transparent;color: #a8a517;border: 1px solid #a8a517;}.comments-holder .navigation .page-numbers:hover{background: #a8a517;border: 1px solid #a8a517;}.bbp-pagination-links a{background: transparent;color: #a8a517;border: 1px solid #a8a517 !important;}#vce-pagination .page-numbers.current,.bbp-pagination-links span.current,.comments-holder .navigation .page-numbers.current{border: 1px solid #a8a517;}.widget_categories .cat-item:before,.widget_categories .cat-item .count{background: #a8a517;}.comment-reply-link,.vce-lay-a .vce-read-more,.vce-lay-c .vce-read-more{border: 1px solid #a8a517;}.entry-meta div,.entry-meta-count,.entry-meta div a,.comment-metadata a,.meta-category span,.meta-author-wrapped,.wp-caption .wp-caption-text,.widget_rss .rss-date,.sidebar cite,.site-footer cite,.sidebar .vce-post-list .entry-meta div,.sidebar .vce-post-list .entry-meta div a,.sidebar .vce-post-list .fn,.sidebar .vce-post-list .fn a,.site-footer .vce-post-list .entry-meta div,.site-footer .vce-post-list .entry-meta div a,.site-footer .vce-post-list .fn,.site-footer .vce-post-list .fn a,#bbpress-forums .bbp-topic-started-by,#bbpress-forums .bbp-topic-started-in,#bbpress-forums .bbp-forum-info .bbp-forum-content,#bbpress-forums p.bbp-topic-meta,span.bbp-admin-links a,.bbp-reply-post-date,#bbpress-forums li.bbp-header,#bbpress-forums li.bbp-footer,.woocommerce .woocommerce-result-count,.woocommerce .product_meta{color: #9b9b9b;}.main-box-title, .comment-reply-title, .main-box-head{background: #ffffff;color: #232323;}.main-box-title a{color: #232323;}.sidebar .widget .widget-title a{color: #232323;}.main-box,.comment-respond,.prev-next-nav{background: #f9f9f9;}.vce-post,ul.comment-list > li.comment,.main-box-single,.ie8 .vce-single,#disqus_thread,.vce-author-card,.vce-author-card .vce-content-outside,.mks-bredcrumbs-container,ul.comment-list > li.pingback{background: #ffffff;}.mks_tabs.horizontal .mks_tab_nav_item.active{border-bottom: 1px solid #ffffff;}.mks_tabs.horizontal .mks_tab_item,.mks_tabs.vertical .mks_tab_nav_item.active,.mks_tabs.horizontal .mks_tab_nav_item.active{background: #ffffff;}.mks_tabs.vertical .mks_tab_nav_item.active{border-right: 1px solid #ffffff;}#vce-pagination,.vce-slider-pagination .owl-controls,.vce-content-outside,.comments-holder .navigation{background: #f3f3f3;}.sidebar .widget-title{background: #ffffff;color: #232323;}.sidebar .widget{background: #f9f9f9;}.sidebar .widget,.sidebar .widget li a,.sidebar .mks_author_widget h3 a,.sidebar .mks_author_widget h3,.sidebar .vce-search-form .vce-search-input,.sidebar .vce-search-form .vce-search-input:focus{color: #444444;}.sidebar .widget li a:hover,.sidebar .widget a,.widget_nav_menu li.menu-item-has-children:hover:after,.widget_pages li.page_item_has_children:hover:after{color: #a8a517;}.sidebar .tagcloud a {border: 1px solid #a8a517;}.sidebar .mks_author_link,.sidebar .tagcloud a:hover,.sidebar .mks_themeforest_widget .more,.sidebar button,.sidebar input[type="button"],.sidebar input[type="reset"],.sidebar input[type="submit"],.sidebar .vce-button,.sidebar .bbp_widget_login .button{background-color: #a8a517;}.sidebar .mks_author_widget .mks_autor_link_wrap,.sidebar .mks_themeforest_widget .mks_read_more,.widget .meks-instagram-follow-link {background: #f3f3f3;}.sidebar #wp-calendar caption,.sidebar .recentcomments,.sidebar .post-date,.sidebar #wp-calendar tbody{color: rgba(68,68,68,0.7);}.site-footer{background: #373941;}.site-footer .widget-title{color: #ffffff;}.site-footer,.site-footer .widget,.site-footer .widget li a,.site-footer .mks_author_widget h3 a,.site-footer .mks_author_widget h3,.site-footer .vce-search-form .vce-search-input,.site-footer .vce-search-form .vce-search-input:focus{color: #f9f9f9;}.site-footer .widget li a:hover,.site-footer .widget a,.site-info a{color: #a8a517;}.site-footer .tagcloud a {border: 1px solid #a8a517;}.site-footer .mks_author_link,.site-footer .mks_themeforest_widget .more,.site-footer button,.site-footer input[type="button"],.site-footer input[type="reset"],.site-footer input[type="submit"],.site-footer .vce-button,.site-footer .tagcloud a:hover{background-color: #a8a517;}.site-footer #wp-calendar caption,.site-footer .recentcomments,.site-footer .post-date,.site-footer #wp-calendar tbody,.site-footer .site-info{color: rgba(249,249,249,0.7);}.top-header,.top-nav-menu li .sub-menu{background: #3a3a3a;}.top-header,.top-header a{color: #ffffff;}.top-header .vce-search-form .vce-search-input,.top-header .vce-search-input:focus,.top-header .vce-search-submit{color: #ffffff;}.top-header .vce-search-form .vce-search-input::-webkit-input-placeholder { color: #ffffff;}.top-header .vce-search-form .vce-search-input:-moz-placeholder { color: #ffffff;}.top-header .vce-search-form .vce-search-input::-moz-placeholder { color: #ffffff;}.top-header .vce-search-form .vce-search-input:-ms-input-placeholder { color: #ffffff;}.header-1-wrapper{height: 0px;padding-top: 15px;}.header-2-wrapper,.header-3-wrapper{height: 0px;}.header-2-wrapper .site-branding,.header-3-wrapper .site-branding{top: 15px;left: 0px;}.site-title a, .site-title a:hover{color: #232323;}.site-description{color: #aaaaaa;}.main-header{background-color: #ffffff;}.header-bottom-wrapper{background: #fcfcfc;}.vce-header-ads{margin: -45px 0;}.header-3-wrapper .nav-menu > li > a{padding: -10px 15px;}.header-sticky,.sidr{background: rgba(252,252,252,0.95);}.ie8 .header-sticky{background: #ffffff;}.main-navigation a,.nav-menu .vce-mega-menu > .sub-menu > li > a,.sidr li a,.vce-menu-parent{color: #4a4a4a;}.nav-menu > li:hover > a,.nav-menu > .current_page_item > a,.nav-menu > .current-menu-item > a,.nav-menu > .current-menu-ancestor > a,.main-navigation a.vce-item-selected,.main-navigation ul ul li:hover > a,.nav-menu ul .current-menu-item a,.nav-menu ul .current_page_item a,.vce-menu-parent:hover,.sidr li a:hover,.sidr li.sidr-class-current_page_item > a,.main-navigation li.current-menu-item.fa:before,.vce-responsive-nav{color: #a8a517;}#sidr-id-vce_main_navigation_menu .soc-nav-menu li a:hover {color: #ffffff;}.nav-menu > li:hover > a,.nav-menu > .current_page_item > a,.nav-menu > .current-menu-item > a,.nav-menu > .current-menu-ancestor > a,.main-navigation a.vce-item-selected,.main-navigation ul ul,.header-sticky .nav-menu > .current_page_item:hover > a,.header-sticky .nav-menu > .current-menu-item:hover > a,.header-sticky .nav-menu > .current-menu-ancestor:hover > a,.header-sticky .main-navigation a.vce-item-selected:hover{background-color: #ffffff;}.search-header-wrap ul {border-top: 2px solid #a8a517;}.vce-cart-icon a.vce-custom-cart span,.sidr-class-vce-custom-cart .sidr-class-vce-cart-count {background: #a8a517;font-family: 'Open Sans';}.vce-border-top .main-box-title{border-top: 2px solid #a8a517;}.tagcloud a:hover,.sidebar .widget .mks_author_link,.sidebar .widget.mks_themeforest_widget .more,.site-footer .widget .mks_author_link,.site-footer .widget.mks_themeforest_widget .more,.vce-lay-g .entry-meta div,.vce-lay-g .fn,.vce-lay-g .fn a{color: #FFF;}.vce-featured-header .vce-featured-header-background{opacity: 0.5}.vce-featured-grid .vce-featured-header-background,.vce-post-big .vce-post-img:after,.vce-post-slider .vce-post-img:after{opacity: 0.5}.vce-featured-grid .owl-item:hover .vce-grid-text .vce-featured-header-background,.vce-post-big li:hover .vce-post-img:after,.vce-post-slider li:hover .vce-post-img:after {opacity: 0.8}.vce-featured-grid.vce-featured-grid-big .vce-featured-header-background,.vce-post-big .vce-post-img:after,.vce-post-slider .vce-post-img:after{opacity: 0.5}.vce-featured-grid.vce-featured-grid-big .owl-item:hover .vce-grid-text .vce-featured-header-background,.vce-post-big li:hover .vce-post-img:after,.vce-post-slider li:hover .vce-post-img:after {opacity: 0.8}#back-top {background: #323232}.sidr input[type=text]{background: rgba(74,74,74,0.1);color: rgba(74,74,74,0.5);}.meta-image:hover a img,.vce-lay-h .img-wrap:hover .meta-image > img,.img-wrp:hover img,.vce-gallery-big:hover img,.vce-gallery .gallery-item:hover img,.vce_posts_widget .vce-post-big li:hover img,.vce-featured-grid .owl-item:hover img,.vce-post-img:hover img,.mega-menu-img:hover img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+</style>
+
+
+
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://www.belle-deco.fr/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+(function($){
+    $(document).ready(function(){
+try {
+      jQuery("span.screen-reader-text.wpseo-primary-category-label").parent().get(0).childNodes[1].remove();
+} catch (error) { 
+}
+		        var arr_cat=jQuery.parseJSON( '[{"Id":1,"Slug":"actu"},{"Id":8,"Slug":"deco"},{"Id":9,"Slug":"demenagement"},{"Id":3,"Slug":"equipement"},{"Id":10,"Slug":"immo"},{"Id":11,"Slug":"jardin"},{"Id":12,"Slug":"maison"},{"Id":13,"Slug":"piscine"},{"Id":4,"Slug":"travaux"}]');
+        var line;
+        jQuery("#categorychecklist-pop").find(".selectit").each(function(){
+            line=jQuery(this);
+            jQuery.each(arr_cat, function(index, cat) {
+                if(cat.Id==line.find("input").val()){
+                    line.get(0).lastChild.nodeValue=cat.Slug;
+                }
+            });
+        });
+        jQuery("#category-all").find(".selectit").each(function(){
+        line=jQuery(this);
+        jQuery.each(arr_cat, function(index, cat) {
+            if(cat.Id==line.find("input").val()){
+                line.get(0).lastChild.nodeValue=cat.Slug;
+            }
+        });
+        });
+    });
+    })(jQuery);
+});</script>
+<script type='text/javascript' src='https://www.belle-deco.fr/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js' defer></script>
+<script type='text/javascript' src='https://www.belle-deco.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+<script data-minify="1" type='text/javascript' src='https://www.belle-deco.fr/wp-content/cache/min/1/wp-content/plugins/wp-ytg-custom/public/js/wp-ytg-public.js?ver=1674057216' id='wp-ytg-js' defer></script>
+<link rel="https://api.w.org/" href="https://www.belle-deco.fr/wp-json/" /><link rel="alternate" type="application/json" href="https://www.belle-deco.fr/wp-json/wp/v2/posts/1066" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.belle-deco.fr/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel='shortlink' href='https://www.belle-deco.fr/?p=1066' />
+<link rel="alternate" type="application/json+oembed" href="https://www.belle-deco.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.belle-deco.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F&#038;format=xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.belle-deco.fr/send.php?rsd" />
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+			//Grid displaying after loading of images
+			function display_grid() {
+				jQuery('[id^="ei-grid-loading-"]').hide();
+				jQuery('[id^="ei-grid-list-"]').show();
+			}
+
+			window.onload = display_grid;
+
+			jQuery(function () {
+				jQuery(document).on('click', '.fancybox-caption__body', function () {
+					jQuery(this).toggleClass('full-caption')
+				})
+			});
+		});</script>
+		<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/fbrfg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/wp-content/uploads/fbrfg/favicon-194x194.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/fbrfg/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/fbrfg/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/wp-content/uploads/fbrfg/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/fbrfg/mstile-144x144.png">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"><link rel="preload" as="font" href="https://www.belle-deco.fr/wp-content/plugins/zz-awp-optimize/assets/fonts/open-sans/open-sans-v34-latin-regular.woff2" crossorigin>
+<link rel="preload" as="font" href="https://www.belle-deco.fr/wp-content/plugins/zz-awp-optimize/assets/fonts/open-sans/open-sans-v34-latin-700.woff2" crossorigin>
+<link rel="preload" as="font" href="https://www.belle-deco.fr/wp-content/plugins/zz-awp-optimize/assets/fonts/roboto-slab/roboto-slab-v24-latin-regular.woff2" crossorigin>
+<link rel="preload" as="font" href="https://www.belle-deco.fr/wp-content/plugins/zz-awp-optimize/assets/fonts/roboto-slab/roboto-slab-v24-latin-700.woff2" crossorigin>
+<link rel="shortcut icon" href="https://www.breizh-equitable.com/wp-content/themes/voice-child/favicon.ico" type="image/x-icon" />		<style type="text/css" id="wp-custom-css">
+			@media (min-width:801px)  { 
+
+.header-1-wrapper {
+    height: 180px;
+    padding-top: 0px;
+}
+.vce-logo img {
+    width: 430px;
+    margin-top: 30px;
+}
+
+	
+} 		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body data-rsssl=1 class="post-template-default single single-post postid-1066 single-format-standard unknown vce-sid-right">
+
+<div id="vce-main">
+
+<header id="header" class="main-header">
+<div class="container header-1-wrapper header-main-area">	
+		<div class="vce-res-nav">
+	<a class="vce-responsive-nav" href="#sidr-main"><i class="fa fa-bars"></i></a>
+</div>
+<div class="site-branding">
+	<span class="site-title"><a href="https://www.belle-deco.fr/" rel="home" class="has-logo"><picture class="vce-logo"><source media="(min-width: 1024px)" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png, https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png 2x"><source data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Belle Déco" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png"><noscript><img src="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png" alt="Belle Déco"></noscript></picture></a></span></div></div>
+
+<div class="header-bottom-wrapper">
+	<div class="container">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+	<ul id="vce_main_navigation_menu" class="nav-menu"><li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7 vce-cat-1"><a href="https://www.belle-deco.fr/actu/">Conseils</a><li id="menu-item-950" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950 vce-cat-8"><a href="https://www.belle-deco.fr/deco/">Décoration intérieure</a><li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9 vce-cat-3"><a href="https://www.belle-deco.fr/equipement/">Equipement de la maison</a><li id="menu-item-951" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-951 vce-cat-9"><a href="https://www.belle-deco.fr/demenagement/">Déménagement</a><li id="menu-item-952" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-952 vce-cat-10"><a href="https://www.belle-deco.fr/immo/">Immobilier</a><li id="menu-item-953" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-953 vce-cat-11"><a href="https://www.belle-deco.fr/jardin/">Jardin</a><li id="menu-item-954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-954 vce-cat-12"><a href="https://www.belle-deco.fr/maison/">Habitat</a><li id="menu-item-955" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-955 vce-cat-13"><a href="https://www.belle-deco.fr/piscine/">Piscine</a><li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10 vce-cat-4"><a href="https://www.belle-deco.fr/travaux/">Travaux</a><li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a><ul class="search-header-form-ul"><li><form class="vce-search-form" action="https://www.belle-deco.fr/" method="get">
+	<input name="s" class="vce-search-input" size="20" type="text" value="Taper ici pour rechercher…" onfocus="(this.value == 'Taper ici pour rechercher…') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Taper ici pour rechercher…')" placeholder="Taper ici pour rechercher…" />
+		<button type="submit" class="vce-search-submit"><i class="fa fa-search"></i></button> 
+</form></li></ul></li></ul></nav>	</div>
+</div></header>
+
+	<div id="sticky_header" class="header-sticky">
+	<div class="container">
+		<div class="vce-res-nav">
+	<a class="vce-responsive-nav" href="#sidr-main"><i class="fa fa-bars"></i></a>
+</div>
+<div class="site-branding">
+	<span class="site-title"><a href="https://www.belle-deco.fr/" rel="home" class="has-logo"><picture class="vce-logo"><source media="(min-width: 1024px)" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png, https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png 2x"><source data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Belle Déco" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png"><noscript><img src="https://www.belle-deco.fr/wp-content/uploads/belle-deco1.fr_.png" alt="Belle Déco"></noscript></picture></a></span></div>		<nav id="site-navigation" class="main-navigation" role="navigation">
+	<ul id="vce_main_navigation_menu" class="nav-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7 vce-cat-1"><a href="https://www.belle-deco.fr/actu/">Conseils</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950 vce-cat-8"><a href="https://www.belle-deco.fr/deco/">Décoration intérieure</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9 vce-cat-3"><a href="https://www.belle-deco.fr/equipement/">Equipement de la maison</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-951 vce-cat-9"><a href="https://www.belle-deco.fr/demenagement/">Déménagement</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-952 vce-cat-10"><a href="https://www.belle-deco.fr/immo/">Immobilier</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-953 vce-cat-11"><a href="https://www.belle-deco.fr/jardin/">Jardin</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-954 vce-cat-12"><a href="https://www.belle-deco.fr/maison/">Habitat</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-955 vce-cat-13"><a href="https://www.belle-deco.fr/piscine/">Piscine</a><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10 vce-cat-4"><a href="https://www.belle-deco.fr/travaux/">Travaux</a><li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a><ul class="search-header-form-ul"><li><form class="vce-search-form" action="https://www.belle-deco.fr/" method="get">
+	<input name="s" class="vce-search-input" size="20" type="text" value="Taper ici pour rechercher…" onfocus="(this.value == 'Taper ici pour rechercher…') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Taper ici pour rechercher…')" placeholder="Taper ici pour rechercher…" />
+		<button type="submit" class="vce-search-submit"><i class="fa fa-search"></i></button> 
+</form></li></ul></li></ul></nav>	</div>
+</div>
+<div id="main-wrapper">
+
+
+
+	
+
+<div id="content" class="container site-content vce-sid-right">
+	
+			
+	<div id="primary" class="vce-main-content">
+
+		<main id="main" class="main-box main-box-single">
+
+		
+			<article id="post-1066" class="vce-single post-1066 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+
+			<header class="entry-header">
+							<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+			
+			<h1 class="entry-title">Quels sont les quartiers à éviter à Montpellier ?</h1>
+			<div class="entry-meta"></div>
+		</header>
+	
+	
+	
+					
+			 	
+			 	<div class="meta-image">
+					<img width="810" height="538" src="https://www.belle-deco.fr/wp-content/uploads/Montpellier-810x538.jpg" class="attachment-vce-lay-a size-vce-lay-a wp-post-image" alt="Montpellier" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/Montpellier-810x538.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/Montpellier-300x199.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/Montpellier-1024x680.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/Montpellier-768x510.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/Montpellier-1536x1020.jpg 1536w, https://www.belle-deco.fr/wp-content/uploads/Montpellier-1140x757.jpg 1140w, https://www.belle-deco.fr/wp-content/uploads/Montpellier.jpg 1920w" sizes="(max-width: 810px) 100vw, 810px" />
+									</div>
+ 
+
+					
+	    
+		
+	<div class="entry-content">
+		<p>Montpellier est l’un des départements français qui attirent le plus de visiteurs. La ville de Montpellier est un endroit séduisant à toute saison. Pourtant, Montpellier est classé dans les 15 villes les plus dangereuses de France. Quels que soient les motifs de votre séjour à Montpellier, il faut à tout prix sélectionner l’endroit le plus sûr pour éviter les problèmes. L’insécurité est de plus en plus présente dans certains quartiers.</p>
+<p><img decoding="async" class="aligncenter size-full wp-image-1863" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201227%20768'%3E%3C/svg%3E" alt="" width="1227" height="768" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/56668-2.jpg 1227w, https://www.belle-deco.fr/wp-content/uploads/56668-2-300x188.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/56668-2-1024x641.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/56668-2-768x481.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/56668-2-810x507.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/56668-2-1140x714.jpg 1140w" data-lazy-sizes="(max-width: 1227px) 100vw, 1227px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/56668-2.jpg" /><noscript><img decoding="async" class="aligncenter size-full wp-image-1863" src="https://www.belle-deco.fr/wp-content/uploads/56668-2.jpg" alt="" width="1227" height="768" srcset="https://www.belle-deco.fr/wp-content/uploads/56668-2.jpg 1227w, https://www.belle-deco.fr/wp-content/uploads/56668-2-300x188.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/56668-2-1024x641.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/56668-2-768x481.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/56668-2-810x507.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/56668-2-1140x714.jpg 1140w" sizes="(max-width: 1227px) 100vw, 1227px" /></noscript></p><p>
+					<strong><i>A lire aussi :</i></strong>
+					<a href="https://www.belle-deco.fr/quel-materiau-choisir-pour-ses-fenetres/" title="Quel matériau choisir pour ses fenêtres ?">Quel matériau choisir pour ses fenêtres ?</a>
+				</p>
+<div id="toc_container" class="toc_white no_bullets"><p class="toc_title">Plan de l'article</p><ul class="toc_list"><li><a href="#Les-Cevennes-le-premier-quartier-ou-linsecurite-est-toujours-presente">Les Cévennes : le premier quartier où l’insécurité est toujours présente</a></li><li><a href="#Figuerolles-et-Gambetta-les-quartiers-les-plus-dangereux-du-centre-ville">Figuerolles et Gambetta : les quartiers les plus dangereux du centre-ville</a></li><li><a href="#Mosson-et-la-Paillade">Mosson et la Paillade</a></li><li><a href="#Les-territoires-entre-Saint-Roch-et-lEcusson">Les territoires entre Saint-Roch et l’Écusson</a></li><li><a href="#Les-points-noirs-de-la-ville-de-Montpellier">Les points noirs de la ville de Montpellier</a></li><li><a href="#Est-ce-que-tous-les-quartiers-de-Montpellier-sont-dangereux">Est-ce que tous les quartiers de Montpellier sont dangereux ?</a></li><li><a href="#Comment-bien-choisir-son-habitation-en-tant-qursquoetudiant-a-Montpellier">Comment bien choisir son habitation en tant qu&rsquo;étudiant à Montpellier ?</a><ul><li><a href="#Opter-pour-un-logement-etudiant-en-plein-centre-ville-oui-ou-non">Opter pour un logement étudiant en plein centre ville : oui ou non ?</a></li><li><a href="#Quel-est-lrsquoetat-du-marche-immobilier-a-Montpellier">Quel est l&rsquo;état du marché immobilier à Montpellier ?</a></li></ul></li></ul></div>
+<h2><span id="Les-Cevennes-le-premier-quartier-ou-linsecurite-est-toujours-presente">Les Cévennes : le premier quartier où l’insécurité est toujours présente</span></h2>
+<p>Les Cévennes se trouvent dans la partie ouest de Montpellier. Ce territoire est formé par Petit-Bard, la Chamberte et la Martelle. Ses zones résidentielles sont pré dominé par la <strong>pauvreté et la délinquance, d</strong>’où la naissance de l’insécurité.</p>
+<p>Les Cévennes sont classées comme le quartier où le taux de <strong>délinquance</strong> est élevé. Si vous visitez la ville de Montpellier, prenez des précautions lorsque vous visitez ce quartier. Ce quartier est connu pour la vente de tabac et de <strong>contrebande</strong>, les mineurs sont les plus suspectés. Les <strong>infractions </strong>n’y manquent pas, en même temps, les agents de police font des efforts pour lutter contre l’insécurité.</p><p>
+					<strong><i>A découvrir également :</i></strong>
+					<a href="https://www.belle-deco.fr/pourquoi-faut-il-utiliser-un-simulateur-de-credit%e2%80%89/" title="Pourquoi faut-il utiliser un simulateur de crédit ?">Pourquoi faut-il utiliser un simulateur de crédit ?</a>
+				</p>
+<h2><span id="Figuerolles-et-Gambetta-les-quartiers-les-plus-dangereux-du-centre-ville">Figuerolles et Gambetta : les quartiers les plus dangereux du centre-ville</span></h2>
+<p>Les habitants de ce quartier vivent dans la crainte et ce sont surtout les enfants qui sont <strong>victimes de cette insécurité</strong>. Les adolescents et les jeunes lycéens peuvent se faire siffler ou harceler. Les passants sont souvent dérangés par les <strong>trafiquants de drogues</strong>. Les actes de violence sont incontrôlés. C’est le trafic de drogues qui commence à empoisonner le quartier, par conséquent les<strong> braquages et les harcèlements</strong> règnent.</p>
+<p>Les personnes âgées n’ont plus le courage de sortir faire leurs courses. Sachez que le <strong>trafic de drogues</strong> se fait en grand jour, il y a même des délinquants qui demandent aux petits enfants de ramener une cuillère pour faire leur dose.</p>
+<h2><span id="Mosson-et-la-Paillade">Mosson et la Paillade</span></h2>
+<p>En effet, presque tous les <strong>quartiers dangereux à Montpellier</strong> se ressemblent. De plus, les zones où règne l’insécurité ne cessent de se multiplier. Dans le nord-ouest de la ville, il y a le quartier de Mosson et la Paillade. Les <strong>drogues </strong>sont même présentes dans les écoles. En pleine journée, il peut y avoir du vol à l’arraché, des contrebandiers de tabac, des travaux de drogues et également le<strong> port d’armes prohibées</strong>.</p>
+<p>Il n’est pas rare de voir dans les journaux les faits de fusillades ainsi que <strong>les règlements de comptes</strong> entre les contrebandes et les trafiquants et les gangs rivaux. Dus au taux de chômage trop élevé, les habitants cherchent tous les moyens pour gagner de l’argent. Pourtant, <strong>Mosson et la Paillade</strong> sont de beaux endroits attrayants malgré les problèmes de sécurité.</p>
+<h2><span id="Les-territoires-entre-Saint-Roch-et-lEcusson">Les territoires entre Saint-Roch et l’Écusson</span></h2>
+<p>Autour de la gare de <strong>Montpellier</strong>, entre <strong>Saint-Roch et Écusson</strong>, ce sont généralement des quartiers touristiques. Chaque année, ils ne reçoivent pas mal de touristes et de visiteurs. Il possède un lieu de vie parfait pour les retraités et les étudiants. On y trouve un merveilleux parc immobilier. Malheureusement, c’est aussi un endroit qui a une <strong>mauvaise réputation</strong> la nuit.</p>
+<p>Toute l’année, cet endroit est le plus visité, il y a beaucoup de monde qui y passe. Si vous voulez visiter les quartiers entre l’Écusson et Saint-Roch, il faut choisir le bon moment et partir pendant la journée. Évitez d’y traîner pendant la nuit même si vous n’êtes pas seul.</p>
+<h2><span id="Les-points-noirs-de-la-ville-de-Montpellier">Les points noirs de la ville de Montpellier</span></h2>
+<p>Montpellier fait bon vivre, c’est une expression que l’on entend parfois de la par des habitants grâce à ses ambiances festives avec le soleil méditerranéen. En revers de ses merveilles et de ses ambiances incomparables, la ville rencontre des problèmes en termes de <strong>sécurité</strong>. La nuit craints, les habitants sont obligés de ne plus sortir de la maison quand la nuit commence à tomber.</p>
+<p>Les agresseurs et les braqueurs s’en vont, à l’arrivée des autorités, et reviennent aussitôt que ces derniers sont partis. À partir d’une certaine heure, on voit <strong>des bagarres </strong>ou des jeunes qui se poursuivent. <strong>Le vol à l’arraché </strong>de portefeuille et de téléphone sans parler des<strong> menaces à couteau</strong> se multiplie depuis 2019.</p>
+<h2><span id="Est-ce-que-tous-les-quartiers-de-Montpellier-sont-dangereux">Est-ce que tous les quartiers de Montpellier sont dangereux ?</span></h2>
+<p>En découvrant tous les <strong>quartiers dangereux de Montpellier</strong>, les touristes hésitent pour y passer un séjour agréable, pourtant, tous les quartiers ne le sont pas. Évidemment, il y a des endroits calme et sympa pour se relaxer, se rafraîchir et profiter de son séjour avec tranquillité. Arceaux est l’un des meilleurs endroits à Montpellier, chic et propre. Il se trouve au cœur du centre historique de la ville où réside la population la plus aisée.</p>
+<p>Le quartier des Beaux-arts offre est plus excentrique, il séduit les artistes avec son aspect bohème et historique. Pour les personnes qui veulent passer le weekend, Montpellier est une <strong>bonne adresse</strong> pour la découverte de belle ville.</p>
+<h2><span id="Comment-bien-choisir-son-habitation-en-tant-qursquoetudiant-a-Montpellier">Comment bien choisir son habitation en tant qu&rsquo;étudiant à Montpellier ?</span></h2>
+<p>Maintenant que vous connaissez les différents quartiers à éviter à Montpellier, il est possible d&rsquo;être plus précis si votre demande concerne un logement étudiant. Pour <a href="https://www.urbis.fr/urbis-info/vivre-a-montpellier">vivre à montpellier</a>, il faut prendre en compte plusieurs critères.</p>
+<h3><span id="Opter-pour-un-logement-etudiant-en-plein-centre-ville-oui-ou-non">Opter pour un logement étudiant en plein centre ville : oui ou non ?</span></h3>
+<p>Parmi différents quartiers à éviter, certains sont à véritablement éviter pour les étudiants. Comme annoncé précédemment, <strong>le quartier de La Mosson et La Paillade est un quartier où sont principalement situés les logements HLM.</strong> Entre trafiquants de drogue et nombreuses fusillades, il est évident que ce quartier n&rsquo;est pas recommandé, et n&rsquo;est pas idéal pour étudier dans ces conditions.</p>
+<p>Il faut finalement<strong> éviter les quartiers où se situent les logements sociaux et où la pauvreté et la délinquance sont omniprésentes</strong>. Les quartiers comme celui des Cévennes, Figuerolles et Gambetta en sont de parfaits exemples : il n&rsquo;est pas recommandé d&rsquo;y passer de jour comme de nuit.</p>
+<h3><span id="Quel-est-lrsquoetat-du-marche-immobilier-a-Montpellier">Quel est l&rsquo;état du marché immobilier à Montpellier ?</span></h3>
+<p>De plus en plus de monde demande à s&rsquo;installer dans la ville de Montpellier. Entre retraités, jeunes cadres ou étudiants, <strong>la ville de Montpellier accueille de nouveaux habitants chaque année. </strong>Pourtant, les prix de l&rsquo;immobilier sont en hausse et on constate une pénurie de logements.</p>
+	</div>
+
+	
+			<footer class="entry-footer">
+			<div class="meta-tags">
+							</div>
+		</footer>
+	
+		  	
+	<div class="vce-share-bar">
+		<ul class="vce-share-items">
+			<li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F&amp;t=Quels%20sont%20les%20quartiers%20%C3%A0%20%C3%A9viter%20%C3%A0%20Montpellier%20%3F"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F&amp;text=Quels%20sont%20les%20quartiers%20%C3%A0%20%C3%A9viter%20%C3%A0%20Montpellier%20%3F"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F&amp;media=https%3A%2F%2Fwww.belle-deco.fr%2Fwp-content%2Fuploads%2FMontpellier.jpg&amp;description=Quels%20sont%20les%20quartiers%20%C3%A0%20%C3%A9viter%20%C3%A0%20Montpellier%20%3F"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.belle-deco.fr%2Fquels-sont-les-quartiers-a-eviter-a-montpellier%2F&amp;title=Quels%20sont%20les%20quartiers%20%C3%A0%20%C3%A9viter%20%C3%A0%20Montpellier%20%3F"></a></li>		</ul>
+	</div>
+	
+	 
+</article>
+		
+					<nav class="prev-next-nav">
+			
+		<div class="vce-prev-link">
+			<a href="https://www.belle-deco.fr/decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison/" rel="next"><span class="img-wrp"><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/Decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/Decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison" decoding="async" loading="lazy" /></noscript><span class="vce-pn-ico"><i class="fa fa fa-chevron-left"></i></span></span><span class="vce-prev-next-link">Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison</span></a>		</div>
+
+		
+			
+		<div class="vce-next-link">
+			<a href="https://www.belle-deco.fr/comment-amenager-une-chambre-de-bebe-ecologique/" rel="prev"><span class="img-wrp"><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/gntykthvnv8-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/gntykthvnv8-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" decoding="async" loading="lazy" /></noscript><span class="vce-pn-ico"><i class="fa fa fa-chevron-right"></i></span></span><span class="vce-prev-next-link">Comment aménager une chambre de bébé écologique ?</span></a>		</div>	
+	</nav>		
+		</main>
+
+		
+					
+	
+	<div class="main-box vce-related-box">
+
+	<h3 class="main-box-title">Vous pourriez aussi adorer</h3>
+	
+	<div class="main-box-inside">
+
+					<article class="vce-post vce-lay-d post-3014 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/comment-calculer-le-differentiel-foncier/" title="Comment calculer le différentiel foncier ?">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="différentiel foncier" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-634x433.jpg 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-145x100.jpg" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="différentiel foncier" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/prelevement-a-la-source-634x433.jpg 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/comment-calculer-le-differentiel-foncier/" title="Comment calculer le différentiel foncier ?">Comment calculer le différentiel foncier ?</a></h2>
+			</header>
+
+</article>					<article class="vce-post vce-lay-d post-2979 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/habiter-en-bretagne-comment-trouver-un-appartement-a-saint-malo/" title="Habiter en Bretagne : comment trouver un appartement à Saint-Malo">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/123663-0-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/123663-0-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/123663-0-634x433.jpg 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/123663-0-145x100.jpg" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/123663-0-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/123663-0-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/123663-0-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/123663-0-634x433.jpg 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/habiter-en-bretagne-comment-trouver-un-appartement-a-saint-malo/" title="Habiter en Bretagne : comment trouver un appartement à Saint-Malo">Habiter en Bretagne : comment trouver un appartement à...</a></h2>
+			</header>
+
+</article>					<article class="vce-post vce-lay-d post-1560 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/5-astuces-pour-obtenir-le-taux-de-credit-immobilier-le-plus-bas/" title="5 astuces pour obtenir le taux de crédit immobilier le plus bas">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/10-145x100.png 145w, https://www.belle-deco.fr/wp-content/uploads/10-380x260.png 380w, https://www.belle-deco.fr/wp-content/uploads/10-634x433.png 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/10-145x100.png" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/10-145x100.png" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/10-145x100.png 145w, https://www.belle-deco.fr/wp-content/uploads/10-380x260.png 380w, https://www.belle-deco.fr/wp-content/uploads/10-634x433.png 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/5-astuces-pour-obtenir-le-taux-de-credit-immobilier-le-plus-bas/" title="5 astuces pour obtenir le taux de crédit immobilier le plus bas">5 astuces pour obtenir le taux de crédit immobilier le...</a></h2>
+			</header>
+
+</article>					<article class="vce-post vce-lay-d post-2714 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/pourquoi-faire-construire-sa-maison-au-mans-ou-dans-sa-peripherie/" title="Pourquoi faire construire sa maison au Mans ou dans sa périphérie ?">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="Pourquoi faire construire sa maison au Mans ou dans sa périphérie" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-634x433.jpg 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-145x100.jpg" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="Pourquoi faire construire sa maison au Mans ou dans sa périphérie" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/Pourquoi-faire-construire-sa-maison-au-Mans-ou-dans-sa-peripherie-634x433.jpg 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/pourquoi-faire-construire-sa-maison-au-mans-ou-dans-sa-peripherie/" title="Pourquoi faire construire sa maison au Mans ou dans sa périphérie ?">Pourquoi faire construire sa maison au Mans ou dans sa...</a></h2>
+			</header>
+
+</article>					<article class="vce-post vce-lay-d post-2644 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/quel-materiau-choisir-pour-ses-fenetres/" title="Quel matériau choisir pour ses fenêtres ?">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-145x100.jpeg 145w, https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-380x260.jpeg 380w, https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-634x433.jpeg 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-145x100.jpeg" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-145x100.jpeg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-145x100.jpeg 145w, https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-380x260.jpeg 380w, https://www.belle-deco.fr/wp-content/uploads/a625b5e3c83746aab3bdc2ebb5487b97-634x433.jpeg 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/quel-materiau-choisir-pour-ses-fenetres/" title="Quel matériau choisir pour ses fenêtres ?">Quel matériau choisir pour ses fenêtres ?</a></h2>
+			</header>
+
+</article>					<article class="vce-post vce-lay-d post-1569 post type-post status-publish format-standard has-post-thumbnail hentry category-immo">
+	
+ 		 	<div class="meta-image">			
+			<a href="https://www.belle-deco.fr/ce-quil-faut-faire-pour-quun-investissement-locatif-soit-rentable/" title="Ce qu’il faut faire pour qu’un investissement locatif soit rentable">
+				<img width="145" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%20100'%3E%3C/svg%3E" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/20-2-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/20-2-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/20-2-634x433.jpg 634w" data-lazy-sizes="(max-width: 145px) 100vw, 145px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/20-2-145x100.jpg" /><noscript><img width="145" height="100" src="https://www.belle-deco.fr/wp-content/uploads/20-2-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.belle-deco.fr/wp-content/uploads/20-2-145x100.jpg 145w, https://www.belle-deco.fr/wp-content/uploads/20-2-380x260.jpg 380w, https://www.belle-deco.fr/wp-content/uploads/20-2-634x433.jpg 634w" sizes="(max-width: 145px) 100vw, 145px" /></noscript>							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://www.belle-deco.fr/immo/" class="category-10">Immo</a></span>
+				<h2 class="entry-title"><a href="https://www.belle-deco.fr/ce-quil-faut-faire-pour-quun-investissement-locatif-soit-rentable/" title="Ce qu’il faut faire pour qu’un investissement locatif soit rentable">Ce qu’il faut faire pour qu’un investissement locatif...</a></h2>
+			</header>
+
+</article>		
+	</div>
+
+	</div>
+
+
+		
+							
+		
+	</div>
+
+		<aside id="sidebar" class="sidebar right">
+		<div id="text-2" class="widget widget_text"><div class="widget-title">A propos</div>			<div class="textwidget"><p><img decoding="async" class="alignnone wp-image-180 alignleft" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%20129'%3E%3C/svg%3E" alt="" width="90" height="129" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/d6rv-209x300.png 209w, https://www.belle-deco.fr/wp-content/uploads/d6rv-768x1102.png 768w, https://www.belle-deco.fr/wp-content/uploads/d6rv-713x1024.png 713w, https://www.belle-deco.fr/wp-content/uploads/d6rv-765x1098.png 765w, https://www.belle-deco.fr/wp-content/uploads/d6rv-128x184.png 128w, https://www.belle-deco.fr/wp-content/uploads/d6rv.png 418w" data-lazy-sizes="(max-width: 90px) 100vw, 90px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/d6rv-209x300.png" /><noscript><img decoding="async" class="alignnone wp-image-180 alignleft" src="https://www.belle-deco.fr/wp-content/uploads/d6rv-209x300.png" alt="" width="90" height="129" srcset="https://www.belle-deco.fr/wp-content/uploads/d6rv-209x300.png 209w, https://www.belle-deco.fr/wp-content/uploads/d6rv-768x1102.png 768w, https://www.belle-deco.fr/wp-content/uploads/d6rv-713x1024.png 713w, https://www.belle-deco.fr/wp-content/uploads/d6rv-765x1098.png 765w, https://www.belle-deco.fr/wp-content/uploads/d6rv-128x184.png 128w, https://www.belle-deco.fr/wp-content/uploads/d6rv.png 418w" sizes="(max-width: 90px) 100vw, 90px" /></noscript></p>
+<p style="text-align: justify;">Bienvenue sur mon blog ! Je m&rsquo;appelle Sonia.<br />
+Retrouvez des astuces et inspirations déco pour aménager votre maison ! Ambiance vintage ou kinfolk, nomadeou scandinave : faites le plein d&rsquo;idées &#8230;</p>
+<p><a href="https://www.belle-deco.fr/contact/">Contactez moi 🙂</a></p>
+</div>
+		</div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget-title">Belle Déco est aussi sur Facebook</div><div class="textwidget custom-html-widget"><div id="fb-root"></div>
+<script type="rocketlazyloadscript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.1&appId=1325193220950908&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/Belle-D&#xe9;co-253832805265542" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Belle-D&#xe9;co-253832805265542" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Belle-D%C3%A9co-253832805265542/">Belle Déco</a></blockquote></div></div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="widget-title">Tout le monde en parle :</div><div class="textwidget custom-html-widget">Couleur et décoration : <strong><a href="https://www.lagazettedeconstantine.com/couleur-taupe-tous-les-conseils-deco-et-tendance/">la couleur taupe </a></strong>, les réponses à vos questions (et bons conseils).</div></div><div id="recent-posts-widget-with-thumbnails-2" class="widget recent-posts-widget-with-thumbnails">
+<div id="rpwwt-recent-posts-widget-with-thumbnails-2" class="rpwwt-widget">
+<div class="widget-title">Derniers articles publiés</div>
+	<ul>
+		<li><a href="https://www.belle-deco.fr/siege-normal-et-siege-ergonomiques-quelles-avantages/"><img width="75" height="75" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" class="attachment-75x75 size-75x75 wp-post-image" alt="Siège normal et siège ergonomiques quelles avantages" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/Siege-normal-et-siege-ergonomiques-quelles-avantages-150x150.jpg" /><noscript><img width="75" height="75" src="https://www.belle-deco.fr/wp-content/uploads/Siege-normal-et-siege-ergonomiques-quelles-avantages-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Siège normal et siège ergonomiques quelles avantages" decoding="async" loading="lazy" /></noscript><span class="rpwwt-post-title">Siège normal et siège ergonomiques : quelles avantages ?</span></a><div class="rpwwt-post-categories">Dans Equipement de la maison</div><div class="rpwwt-post-excerpt">Les chaises assis-debout, ou chaises debout, sont des <span class="rpwwt-post-excerpt-more">...</span></div></li>
+		<li><a href="https://www.belle-deco.fr/les-avantages-de-prendre-lavis-dun-professionnel-lors-du-choix-dun-equipement-domestique/"><img width="75" height="75" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" class="attachment-75x75 size-75x75 wp-post-image" alt="Les avantages de prendre l&#039;avis d&#039;un professionnel lors du choix d&#039;un équipement domestique" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/les-avantages-de-prendre-lavis-dun-professionnel-lors-du-choix-dun-equipement-domestique-150x150.jpg" /><noscript><img width="75" height="75" src="https://www.belle-deco.fr/wp-content/uploads/les-avantages-de-prendre-lavis-dun-professionnel-lors-du-choix-dun-equipement-domestique-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Les avantages de prendre l&#039;avis d&#039;un professionnel lors du choix d&#039;un équipement domestique" decoding="async" loading="lazy" /></noscript><span class="rpwwt-post-title">Les avantages de prendre l&rsquo;avis d&rsquo;un professionnel lors du choix d&rsquo;un équipement domestique</span></a><div class="rpwwt-post-categories">Dans Déménagement</div><div class="rpwwt-post-excerpt">Lorsqu&rsquo;il s&rsquo;agit d&rsquo;acheter des <span class="rpwwt-post-excerpt-more">...</span></div></li>
+		<li><a href="https://www.belle-deco.fr/decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison/"><img width="75" height="75" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" class="attachment-75x75 size-75x75 wp-post-image" alt="Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/Decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison-150x150.jpg" /><noscript><img width="75" height="75" src="https://www.belle-deco.fr/wp-content/uploads/Decouvrez-les-nouvelles-tendances-en-matiere-de-decoration-interieure-pour-votre-maison-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison" decoding="async" loading="lazy" /></noscript><span class="rpwwt-post-title">Découvrez les nouvelles tendances en matière de décoration intérieure pour votre maison</span></a><div class="rpwwt-post-categories">Dans Déco</div><div class="rpwwt-post-excerpt">Vous avez besoin de nouveauté au sein de votre <span class="rpwwt-post-excerpt-more">...</span></div></li>
+		<li><a href="https://www.belle-deco.fr/comment-calculer-les-m3-dune-piece/"><img width="75" height="75" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" class="attachment-75x75 size-75x75 wp-post-image" alt="Comment calculer les m3 d&#039;une pièce" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/Comment-calculer-les-m3-dune-piece-150x150.jpg" /><noscript><img width="75" height="75" src="https://www.belle-deco.fr/wp-content/uploads/Comment-calculer-les-m3-dune-piece-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Comment calculer les m3 d&#039;une pièce" decoding="async" loading="lazy" /></noscript><span class="rpwwt-post-title">Comment calculer les m3 d&rsquo;une pièce ?</span></a><div class="rpwwt-post-categories">Dans Déco</div><div class="rpwwt-post-excerpt">Le mètre cube en abrégé m3 est l’unité de mesure de <span class="rpwwt-post-excerpt-more">...</span></div></li>
+	</ul>
+</div><!-- .rpwwt-widget -->
+</div><div id="categories-2" class="widget widget_categories"><div class="widget-title">Nombres d&rsquo;articles par catégorie</div>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="https://www.belle-deco.fr/actu/"><span class="category-text">Conseils</span><span class="count"><span class="count-hidden">94</span></span></a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://www.belle-deco.fr/deco/"><span class="category-text">Déco</span><span class="count"><span class="count-hidden">148</span></span></a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://www.belle-deco.fr/demenagement/"><span class="category-text">Déménagement</span><span class="count"><span class="count-hidden">6</span></span></a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://www.belle-deco.fr/equipement/"><span class="category-text">Equipement de la maison</span><span class="count"><span class="count-hidden">129</span></span></a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://www.belle-deco.fr/immo/"><span class="category-text">Immo</span><span class="count"><span class="count-hidden">21</span></span></a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://www.belle-deco.fr/jardin/"><span class="category-text">Jardin</span><span class="count"><span class="count-hidden">39</span></span></a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://www.belle-deco.fr/maison/"><span class="category-text">Maison</span><span class="count"><span class="count-hidden">67</span></span></a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://www.belle-deco.fr/piscine/"><span class="category-text">Piscine</span><span class="count"><span class="count-hidden">15</span></span></a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://www.belle-deco.fr/travaux/"><span class="category-text">Travaux</span><span class="count"><span class="count-hidden">74</span></span></a>
+</li>
+			</ul>
+
+			</div><div id="media_gallery-2" class="widget widget_media_gallery"><div class="widget-title">9 idées déco pour bureau</div><div id='gallery-1' class='vce-gallery gallery galleryid-1066 gallery-columns-3 gallery-size-vce-lay-b'><div class="vce-gallery-big"><div class="big-gallery-item item-0" >
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg'><img width="535" height="356" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20535%20356'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg 535w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-300x200.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-768x511.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-1024x681.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-765x509.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-244x162.jpg 244w" data-lazy-sizes="(max-width: 535px) 100vw, 535px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg" /><noscript><img width="535" height="356" src="https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg 535w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-300x200.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-768x511.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-1024x681.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-765x509.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-1-244x162.jpg 244w" sizes="(max-width: 535px) 100vw, 535px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-1" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-2.jpg'><img width="810" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20810%20480'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-2-810x480.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-300x178.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-768x455.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-767x454.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-1024x606.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-765x453.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-244x145.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-370x220.jpg 370w, https://www.belle-deco.fr/wp-content/uploads/bureau-2.jpg 981w" data-lazy-sizes="(max-width: 810px) 100vw, 810px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-2-810x480.jpg" /><noscript><img width="810" height="480" src="https://www.belle-deco.fr/wp-content/uploads/bureau-2-810x480.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-2-810x480.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-300x178.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-768x455.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-767x454.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-1024x606.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-765x453.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-244x145.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-2-370x220.jpg 370w, https://www.belle-deco.fr/wp-content/uploads/bureau-2.jpg 981w" sizes="(max-width: 810px) 100vw, 810px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-2" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg'><img width="600" height="450" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20450'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg 600w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-300x225.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-768x576.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-1024x768.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-765x573.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-244x183.jpg 244w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg" /><noscript><img width="600" height="450" src="https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg 600w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-300x225.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-768x576.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-1024x768.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-765x573.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-3-244x183.jpg 244w" sizes="(max-width: 600px) 100vw, 600px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-3" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg'><img width="640" height="510" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20510'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg 640w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-300x239.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-768x612.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-1024x816.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-765x609.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-231x184.jpg 231w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg" /><noscript><img width="640" height="510" src="https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg 640w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-300x239.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-768x612.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-1024x816.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-765x609.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-4-231x184.jpg 231w" sizes="(max-width: 640px) 100vw, 640px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-4" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-5.jpg'><img width="810" height="536" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20810%20536'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-5-810x536.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-300x198.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-768x508.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-767x507.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-5.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-765x505.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-244x161.jpg 244w" data-lazy-sizes="(max-width: 810px) 100vw, 810px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-5-810x536.jpg" /><noscript><img width="810" height="536" src="https://www.belle-deco.fr/wp-content/uploads/bureau-5-810x536.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-5-810x536.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-300x198.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-768x508.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-767x507.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-5.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-765x505.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-5-244x161.jpg 244w" sizes="(max-width: 810px) 100vw, 810px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-5" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-6.jpg'><img width="810" height="717" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20810%20717'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-6-810x717.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-300x266.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-768x680.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-1024x907.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-765x677.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-208x184.jpg 208w, https://www.belle-deco.fr/wp-content/uploads/bureau-6.jpg 840w" data-lazy-sizes="(max-width: 810px) 100vw, 810px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-6-810x717.jpg" /><noscript><img width="810" height="717" src="https://www.belle-deco.fr/wp-content/uploads/bureau-6-810x717.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-6-810x717.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-300x266.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-768x680.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-1024x907.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-765x677.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-6-208x184.jpg 208w, https://www.belle-deco.fr/wp-content/uploads/bureau-6.jpg 840w" sizes="(max-width: 810px) 100vw, 810px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-6" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-7.jpg'><img width="810" height="455" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20810%20455'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-7-810x455.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-300x169.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-768x432.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-767x431.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-1024x576.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-765x430.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-244x137.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-7.jpg 820w" data-lazy-sizes="(max-width: 810px) 100vw, 810px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-7-810x455.jpg" /><noscript><img width="810" height="455" src="https://www.belle-deco.fr/wp-content/uploads/bureau-7-810x455.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-7-810x455.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-300x169.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-768x432.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-767x431.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-1024x576.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-765x430.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-7-244x137.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-7.jpg 820w" sizes="(max-width: 810px) 100vw, 810px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-7" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg'><img width="618" height="463" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20618%20463'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg 618w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-300x225.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-767x575.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-1024x767.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-765x573.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-244x183.jpg 244w" data-lazy-sizes="(max-width: 618px) 100vw, 618px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg" /><noscript><img width="618" height="463" src="https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg 618w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-300x225.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-767x575.jpg 767w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-1024x767.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-765x573.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-8-244x183.jpg 244w" sizes="(max-width: 618px) 100vw, 618px" /></noscript></a>
+			</div></div><div class="big-gallery-item item-8" style="display:none;">
+			<div class='gallery-icon'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-9.jpg'><img width="810" height="517" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20810%20517'%3E%3C/svg%3E" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" data-lazy-srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-9-810x517.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-300x192.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-1024x654.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-768x490.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-1140x728.jpg 1140w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-765x488.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-244x156.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-9.jpg 1200w" data-lazy-sizes="(max-width: 810px) 100vw, 810px" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-9-810x517.jpg" /><noscript><img width="810" height="517" src="https://www.belle-deco.fr/wp-content/uploads/bureau-9-810x517.jpg" class="attachment-vce-lay-a size-vce-lay-a" alt="" decoding="async" srcset="https://www.belle-deco.fr/wp-content/uploads/bureau-9-810x517.jpg 810w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-300x192.jpg 300w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-1024x654.jpg 1024w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-768x490.jpg 768w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-1140x728.jpg 1140w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-765x488.jpg 765w, https://www.belle-deco.fr/wp-content/uploads/bureau-9-244x156.jpg 244w, https://www.belle-deco.fr/wp-content/uploads/bureau-9.jpg 1200w" sizes="(max-width: 810px) 100vw, 810px" /></noscript></a>
+			</div></div></div><div class="vce-gallery-slider" data-columns="3"><figure class='gallery-item' data-item='0'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-1.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-1-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-1-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='1'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-2.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-2-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-2-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='2'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-3.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-3-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-3-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='3'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-4.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-4-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-4-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='4'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-5.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-5-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-5-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='5'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-6.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-6-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-6-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='6'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-7.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-7-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-7-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='7'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-8.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-8-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-8-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure><figure class='gallery-item' data-item='8'>
+			<div class='gallery-icon landscape'>
+				<a href='https://www.belle-deco.fr/wp-content/uploads/bureau-9.jpg'><img width="375" height="195" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20375%20195'%3E%3C/svg%3E" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" data-lazy-src="https://www.belle-deco.fr/wp-content/uploads/bureau-9-375x195.jpg" /><noscript><img width="375" height="195" src="https://www.belle-deco.fr/wp-content/uploads/bureau-9-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b" alt="" decoding="async" /></noscript></a>
+			</div></figure></div></div>
+</div>	</aside>
+
+</div>
+
+
+
+
+	<footer id="footer" class="site-footer">
+
+				<div class="container">
+			<div class="container-fix">
+										<div class="bit-3">
+									</div>
+							<div class="bit-3">
+									</div>
+							<div class="bit-3">
+									</div>
+						</div>
+		</div>
+		
+					<div class="container-full site-info">
+				<div class="container">
+											<div class="vce-wrap-left">
+							<p>belle-deco.fr &copy; 2022</p>						</div>
+					
+											<div class="vce-wrap-right">
+								<ul id="vce_footer_menu" class="bottom-nav-menu"><li id="menu-item-2329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="https://www.belle-deco.fr/contact/">Contact</a></li>
+<li id="menu-item-2330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2330"><a href="https://www.belle-deco.fr/mentions-legales/">Mentions légales</a></li>
+</ul>						</div>
+						
+
+					
+			
+				</div>
+			</div>
+		
+
+	</footer>
+
+
+</div>
+</div>
+
+<a href="javascript:void(0)" id="back-top"><i class="fa fa-angle-up"></i></a>
+
+<script type='text/javascript' src='https://www.belle-deco.fr/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2212' id='toc-front-js' defer></script>
+<script type='text/javascript' id='vce_custom-js-extra'>
+/* <![CDATA[ */
+var vce_js_settings = {"sticky_header":"1","sticky_header_offset":"700","sticky_header_logo":"","logo":"https:\/\/www.belle-deco.fr\/wp-content\/uploads\/belle-deco1.fr_.png","logo_retina":"https:\/\/www.belle-deco.fr\/wp-content\/uploads\/belle-deco1.fr_.png","logo_mobile":"https:\/\/www.belle-deco.fr\/wp-content\/uploads\/belle-deco1.fr_.png","logo_mobile_retina":"","rtl_mode":"0","ajax_url":"https:\/\/www.belle-deco.fr\/wp-admin\/admin-ajax.php","ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"","grid_slider_autoplay":"","grid_big_slider_autoplay":"","fa_big_opacity":{"1":"0.5","2":"0.7"},"top_bar_mobile":"1","top_bar_mobile_group":"","top_bar_more_link":"More"};
+/* ]]> */
+</script>
+<script data-minify="1" type='text/javascript' src='https://www.belle-deco.fr/wp-content/cache/min/1/wp-content/themes/voice-child/js/min.js?ver=1674057216' id='vce_custom-js' defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.belle-deco.fr/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+</body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1674735978 -->
