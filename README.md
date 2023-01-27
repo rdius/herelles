@@ -40,18 +40,16 @@ Quick start
 -----------
 
 Then clone the project: 
-   ```
+   ```python
    git clone https://github.com/rdius/herelles.git
-   ```
-   ```
-   You can specify your own vocabulary of concepts in the ./terms directory
+
+   # You can specify your own vocabulary of concepts in the ./terms directory
    ```
 
 Install the requiered packages:
+   ```python
+pip install -r requirements.txt
 
-    pip install -r requirements.txt
-
-```
 # Change the vocabulary of concept file and the spatial extent to your own in main.py.
 
 from src.collector import scrapper
