@@ -32,12 +32,9 @@ This protocol is designed for anchored spatiotemporal and thematic corpora const
 
 * To ensure the quality the collected document, we have set up an automated evaluation, based on the similarity measure based on Transformers model (we used DistilBert). This similarity measure is computed for each document, with an extended concept vocabulary. Why an extended vocabulary of concept ? We propose to use an extended vocabulary of concepts for each thematic during the collection, in order to be able to take into account documents of a societal nature, whose content contains a less formal language (socially oriented or language of the majority), generally coming from forums, blogs, etc. The extended concept is obtained by generating synonyms for each term in the initial vocabulary using WordNet.
 
-
 * The most relevant documents are those with the highest similarity scores.
 
 
-
-=======Quick start=======
 
 Quick start
 -----------
@@ -47,24 +44,15 @@ Then clone the project:
    git clone https://github.com/rdius/herelles.git
    ```
    ```
-   You can specify your own vocabulary of concept in the ./terms directory
+   You can specify your own vocabulary of concepts in the ./terms directory
    ```
 
 Install the requiered packages:
 
     pip install -r requirements.txt
 
-
-
-
-### Thematic Concepts Vocabulary for test in  ./voc_concepts
-
 ```
-pip install -r requirements.txt
+# Change the vocabulary of concept file and the spatial extent to your own in main.py.
 
-# Change the voc_concept_file and the spatial_extent to your own.
 
-voc_concept_file =  "./voc_concept/agriculture.txt" 
-spatial_extent = 'montpellier'
-advanced_scraper(spatial_extent,voc_concept_file,voc_concept_file)
 ```
