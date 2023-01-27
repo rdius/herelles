@@ -1,5 +1,5 @@
-# herelles corpora consitution protocol
-Automatic protocol for the constitution of spatio-temporal and thematic corpora for the Herelles project.
+# Herelles project 
+Automatic protocol for the constitution of spatiotemporal and thematic corpora for the Herelles project.
 
 ![alt tag](./herrelles.png)
 
