@@ -3,7 +3,7 @@ Automatic protocol for the constitution of spatiotemporal and thematic corpora f
 
 ![alt tag](./herrelles.png)
 
-This protocol is designed for anchored spatiotemporal and thematic corpora constitution :
+This protocol is designed for the constitution of spatio-temporal and thematic corpora:
 
   * Build a corpus by specifying the thematic keyword, the spatial footprint (e.g, city or territory name).
   * Build automatically associated some metadata for each collected document such as the :
