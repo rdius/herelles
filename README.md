@@ -66,3 +66,21 @@ if __name__ == '__main__':
     print("scrapping...")
     scrapper(spatial_extent, vcRisq)
 ```
+
+
+Visualize the corpus
+---------------------
+```python
+streamlit run thecob_app.py #run the application
+
+```
+### Specify the query parameters
+![alt tag](./params.png)
+
+### Display a sample of the queried corpus. YOu can download the entire corpus by clicking on the link.
+![alt tag](./data.png)
+
+### Visual statistics on the collected corpus
+![alt tag](./stats.png)
+
+
