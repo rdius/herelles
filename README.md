@@ -49,9 +49,10 @@ Then clone the project:
 
 Install the requiered packages:
    ```python
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
-```python
+ ```python
 # Change the vocabulary of concept file and the spatial extent to your own in main.py.
 
 from src.collector import scrapper
