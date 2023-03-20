@@ -1,0 +1,2546 @@
+DEPARTEMENT DE L'HERAULT - DIRECTION DEPARTEMENTALE DE L'EQUIPEMENT - SERVICE URBANISME
+EAU et ENVIRONNEMENT
+
+Plan de Prévention des Risques Naturels d'Inondation
+Communes de : Combaillaux,Vailhauquès, Montarnaud,
+Murles, Grabels, Juvignac et St Georges d'Orques.
+
+2 a - REGLEMENT
+
+Inondation
+
+Elaboration
+
+21 - 06 - 2000
+
+26 - 10 - 2000
+
+09 - 03 - 2001
+
+Procédure
+
+Prescription
+
+Enquête Publique
+
+Approbation
+
+PORTEE DU REGLEMENT - DISPOSITIONS GENERALES
+
+I/ Champ d'application :
+Le présent règlement s'applique sur le territoire des communes de Montarnaud, Vailhauquès, Murles, Combaillaux, Grabels, Juvignac et Saint
+Georges d’Orques délimité sur le plan de zonage du Plan de Prévention des Risques Naturels de la haute vallée de la Mosson prescrit par
+arrêté préfectoral en date du 21 juin 2000.
+Il détermine les mesures de protection et de prévention à mettre en oeuvre pour les risques naturels d'inondation.
+Conformément aux dispositions de l'article 3 du décret n° 95-1089 du 5 octobre 1995, le territoire concerné est divisé en 3 zones :
+−
+
+des zones rouges très exposées correspondant à une zone d’écoulement principal ou à des secteurs recouverts par une lame
+d’eau supérieure à 0,50m en crue centennale,
+
+−
+
+des zones bleues exposées à des risques moindres correspondant aux champs d’expansion des crues,
+
+−
+
+une zone blanche, sans risque prévisible pour la crue de référence
+
+En application de la loi du 13 juillet 1982 relative à l'indemnisation des victimes des catastrophes naturelles, le présent règlement fixe les
+dispositions applicables aux biens et activités existants ainsi qu'à l'implantation de toutes constructions et installations, à l'exécution de tous
+travaux et à l'exercice de toutes activités, sans préjudice de l'application des autres législations réglementaires en vigueur.
+
+-1-
+
+II/ Les effets du P.P.R. et du règlement :
+La nature et les conditions d'exécution des techniques de prévention prises pour l'application du présent règlement, sont
+définies et mises en oeuvre sous la responsabilité du maître d'ouvrage et du maître d'oeuvre concernés pour les
+constructions, travaux et installations visés.
+Le P.P.R. vaut servitude d'utilité publique, les mesures de prévention définies par le P.P.R. s'imposent à toutes
+constructions, travaux, installations et activités entrepris ou exercés. Cette servitude doit être annexée au plan
+d'occupation des sols.
+Les biens et activités existants antérieurement à la publication de ce plan de prévention continuent de bénéficier du
+régime général de garantie prévu par la loi.
+Pour les biens et activités créés postérieurement à sa publication le respect des dispositions du P.P.R. conditionne la
+possibilité pour l'assuré, de bénéficier de la réparation des dommages matériels directement occasionnés par l'intensité
+anormale d'un agent naturel, sous réserve que soit constaté par arrêté interministériel l'état de catastrophe naturelle.
+Conformément à l'article 5 du décret n° 95-1089 du 5 octobre 1995, les mesures de prévention prévues par le Plan de
+Prévention des Risques Naturels prévisibles concernant les biens existants antérieurement à sa publication, ne peuvent
+entraîner un coût supérieur à 10 % de la valeur vénale des biens concernés.
+Ces mesures individuelles doivent être prises dans un délai de 5 ans après l'approbation du PPR. Elles peuvent
+concerner une mise en sécurité au regard de l'inondation des différents réseaux (électricité, eau, assainissement), des
+appareils ménagers (chauffe-eau, chaudières, compteur électrique ...) et éventuellement la mise en place de systèmes
+d'étanchéité du bâtiment lui-même.
+Les dispositions de ce règlement constituent des mesures minimales de prévention individuelles ou collectives. Il
+appartient aux différents maîtres d'ouvrages de prendre en compte les risques affichés, et de prévoir les mesures de
+prévention en conséquence.
+-2-
+
+Il revient au maître d'ouvrage de chaque opération, de choisir les mesures adéquates lui permettant, dans la limite des 10 %
+de la valeur vénale des biens, de justifier, en cas de sinistre, qu'il a mis en oeuvre les mesures de prévention nécessaires.
+Afin de pouvoir édicter des règles simples et dont la mise en oeuvre présente le moins de difficultés possibles, il est
+nécessaire de bien définir les repères d'altitude qui serviront de calage aux différentes prescriptions du règlement :
+−
+
+La cote N.G.F. du terrain est le niveau du terrain naturel avant travaux
+
+Toute demande d’autorisation en zone inondable devra être accompagnée d’un levé topographique rattaché aux altitudes
+normales IGN 69 dressé par un géomètre expert à l’échelle correspondant à la précision altimétrique de 0,10 m
+
+−
+
+le niveau des Plus Hautes Eaux (P.H.E.) est la cote NGF atteinte par la crue centennale calculée ou cote des plus
+hautes eaux connues si celle-ci est supérieure à la crue centennale calculée.
+
+C'est la cote de P.H.E. qui servira à caler la sous-face du 1er plancher aménagé
+
+3
+
+III/ Règles générales
+1- Carrières
+Les demandes d'ouverture et d'exploitation de carrières, sablières ou gravières font l'objet d'une instruction de la part des
+services de la D.R.I.R.E. (Direction Régionale de l'Industrie et de la Recherche).
+Elles devront être conformes aux orientations du SDAGE approuvé le 20.12.96 et au schéma départemental des carrières.
+2 - Travaux en rivière
+Les installations, ouvrages, travaux et activités dans le lit des cours d'eau sont susceptibles d'être soumis à déclaration ou
+autorisation au titre de la loi sur l'eau.
+Pour tous travaux relatifs à la ripisylve, il convient de se référer aux orientations et préconisations du SDAGE.
+3 - Maîtrise des eaux pluviales
+Conformément aux dispositions de l'article 35 de la Loi 92.3 sur l'eau, la commune doit, afin de se prémunir des risques
+d'inondabilité liés au ruissellement pluvial urbain en cas de pluie intense, définir :
+− Les zones où des mesures doivent être prises pour limiter l'imperméabilisation des sols et pour assurer la maîtrise du débit et
+de l'écoulement des eaux pluviales et de ruissellement.
+− Les zones où il est nécessaire de prévoir des installations pour assurer la collecte, le stockage et le traitement éventuels des
+eaux pluviales et de ruissellement.
+Afin de limiter les ruissellements pluviaux, toute opération d'urbanisation nouvelle entrant dans le cadre de la loi sur l'eau devra
+prévoir les mesures compensatoires suffisantes pour permettre une rétention des eaux pluviales dans la proportion
+de 100 litres/m2 imperméabilisés.
+Pour préserver les axes d'écoulement, une bande non aedificandi de 10 m de part et d'autre des ruisseaux n'ayant pas fait
+l'objet d'une étude hydraulique spécifique, classée en zone rouge "R", est reportée sur les documents graphiques.
+4 – Alerte aux crues
+La commune devra mettre en place dans un délai d’un an après l’approbation du PPR, tenir et diffuser un plan d’alerte et de
+secours en cas d’inondation.
+5 – Travaux de protection
+Il est souhaitable que l’étude de travaux de protection des zones densément urbanisées soit engagée dans les plus brefs délais
+après l’approbation du PPR, soit par la commune, soit par un syndicat de communes sur un périmètre élargi au bassin versant.
+Les travaux autorisés dans le règlement ci-dessous et fortement encouragés par l’Etat dans le cadre des textes réglementaires
+ou des possibilités de subvention doivent être menées dans les meilleurs délais.
+-4-
+
+IV/ DISPOSITIONS CONSTRUCTIVES
+Mesures de prévention dans le cadre de constructions en zones inondables
+Techniques particulières à mettre en oeuvre sous la responsabilité du maître d'ouvrage et de son maître d'oeuvre dans le
+cadre de constructions nouvelles ou de travaux sur le bâti existant, en zone inondable.
+− Les fondations, murs et parties de la structure situés au-dessous de la cote de référence devront comporter sur leur partie
+supérieure une arase étanche. Les matériaux de ces structures sensibles à la corrosion devront être traités avec des produits
+hydrofuges ou anti-corrosifs.
+− Les constructions seront fondées dans le sol de façon à résister à des affouillements, à des tassements ou à des érosions
+détaillées. Elles devront être capables de résister à la pression hydrostatique.
+− Les matériaux de second-oeuvre (cloisons, menuiseries, portes...etc) et les revêtements (sols, murs...) situés au-dessous de la
+cote de référence seront réalisés avec des matériaux insensibles à l'eau, ou correctement traités.
+− Les réseaux extérieurs d'eau, de gaz et d'électricité doivent être dotés d'un dispositif de mise hors-service, ou bien réalisés
+entièrement au-dessus de la cote de référence.
+− Les réseaux d'assainissement nouvellement réalisés doivent être étanches et munis de clapets anti-retour. Les bouches d'égouts
+doivent être verrouillées.
+− Les équipements électriques doivent être placés au-dessus de la cote de référence, à l'exception des dispositifs d'épuisement ou
+de pompage.
+− Les aménagements autorisés ne devront pas conduire à la création de stocks de produits ou objets de valeur, vulnérables à l'eau,
+en-dessous de la cote de référence.
+− Les citernes enterrées ou non et les citernes sous pression ainsi que tous les récipients contenant des hydrocarbures, du gaz,des
+engrais liquides, des pesticides, et d'une façon générale, tous les produits sensibles à l'humidité, devront être protégés contre les
+effets de la crue centennale (mises hors d'eau ou fixées et rendues étanches).
+
+-5-
+
+− Le stockage des produits polluants, quelle que soit leur quantité ou concentration, devra être réalisé dans des récipients
+étanches et protégés contre les effets de l' inondation centennale. La nomenclature de ces produits est fixée par la législation
+sur les installations classées, et par le Règlement Sanitaire Départemental.
+− Les piscines doivent disposer d'un système de balisage permanent de façon à pouvoir en visualiser l'emprise en cas de crue.
+− Les clôtures et les plantations d'alignement doivent être étudiées de façon à leur préserver une transparence maximale à
+l'écoulement.
+− Il est recommandé d'éviter les aménagements concourant à imperméabiliser de grandes surfaces, sauf à prévoir des bassins de
+rétention suffisamment dimensionnés, ou des procédés limitant le ruissellement.
+− En particulier, en matière de pluvial, il convient de rechercher la mise en oeuvre de techniques, compensatoires à l'urbanisme,
+favorisant l'infiltration des eaux pluviales sur place (tranchées filtrantes, puits d'infiltration, chaussées réservoir....)
+− Il est recommandé d'augmenter les surfaces boisées, de limiter les défrichements de façon à réduire les volumes de
+ruissellement et en étaler les effets.
+− Une attention particulière doit être accordée aux modes culturaux, à la constitution de haies vives, dont les conséquences
+peuvent être le ralentissement des écoulements, ou l'augmentation de la capacité de stockage des eaux sans toutefois créer
+d'obstacle à leur écoulement sous forme de barrage.
+
+-6-
+
+Haute Vallée de la Mosson
+
+ZONES ROUGES
+
+La zone rouge correspond à une zone d’écoulement principal où les hauteurs d’eau et les courants peuvent être importants.
+On distingue deux types de zones rouge :
+1. ZONE ROUGE « R » : pour les zones naturelles, et dont la hauteur d’eau en crue centennale est supérieure à 0,50m et sur
+une bande de 10m en bordure de tous les ruisseaux n’ayant pas fait l’objet d’étude hydraulique spécifique.
+2. ZONE ROUGE « RU1 » : pour les secteurs urbanisés susceptibles d’être recouverts par une lame d’eau supérieure à 0,50m
+en crue centennale et situés dans une d’écoulement préférentiel des eaux débordées.
+
+Objectif
+
+Clauses réglementaires
+
+Zones
+SONT INTERDITS
+
+DISPOSITIONS
+GENERALES
+
+R – RU1
+
+•
+
+R – RU1
+
+Ÿ
+
+Tous travaux, de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous, (intitulé "SONT
+ADMIS")
+En particulier les réparations au gros œuvre des dégats occasionnés uniquement par les crues.
+
+UTILISATIONS DU SOL
+
+R – RU1
+
+R – RU1
+
+•
+
+Les dépôts de matériaux et conditionnements susceptibles d'être emportés ou de gêner l'écoulement des eaux en cas
+de crue.
+
+• Tous remblais modifiant les conditions d’écoulement ou le champ d’expansion des crues et en particulier les
+
+endiguements sauf s'ils sont de nature à protéger des lieux fortement urbanisés.
+
+R – RU1
+
+•
+
+R – RU1
+
+• Les occupations et activités temporaires (parcs d'attraction, fêtes foraines, marché .....) en dehors de la
+période du 1er mai au 31 août et sous réserve de s’assurer des conditions météorologiques.
+
+R – RU1
+
+• Toutes les constructions à caractère vulnérable telle que : écoles, crèches, établissements sanitaires, établissements
+recevant du public, installations classées…
+
+Les dépôts et stockages de produits dangereux ou polluants
+
+-7-
+
+ZONES ROUGES
+
+Haute Vallée de la Mosson
+Objectif
+MAINTENIR ET
+AMELIORER
+L’ACTIVITE
+EXISTANTE
+
+Clauses réglementaires
+
+Zones
+SONT ADMIS
+
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+
+R – RU1
+
+•
+
+R – RU1
+
+• Les modifications de constructions sans changement de destination, sauf s'il est de nature à réduire la vulnérabilité du
+
+Les travaux d'entretien et de gestion courants (traitements de façades, réfection de toiture, peinture....)
+
+bâtiment et améliore la sécurité des personnes, sans création de logement supplémentaire, et sous réserve que la
+surface des planchers soit calée au minimum à la cote de la PHE.
+En cas de contrainte architecturale majeure, des dispositifs permettant de diminuer la vulnérabilité du bâti devront
+être mis en place.
+
+R – RU1
+
+R – RU1
+
+Ÿ L'extension de bâtiments d'habitation existants dans la limite de 20 m² d'emprise au sol (une seule fois) et leur
+modification, sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne crée pas d'obstacle à
+l'écoulement,
+− que l'extension s'accompagne de mesures compensatoires de nature à diminuer la vulnérabilité du bâtiment luimême, à améliorer la sécurité des personnes et à favoriser l'écoulement des eaux,
+− et que les travaux envisagés ne soient pas de nature à créer un changement de l’usage des locaux sauf s’ils sont
+de nature à réduire le risque.
+•
+
+Si la hauteur d’eau en crue centennale est inférieure à 1,50m, l'extension des bâtiments d'activités, industries ou
+agricoles, jusqu'à 20 % de l'emprise au sol (une seule fois) sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE,
+− de prendre en compte les impératifs d'écoulement des crues, que leur implantation ne crée pas d'obstacle à
+l'écoulement,
+− et que l'extension n'accroisse pas la vulnérabilité du bâtiment lui-même.
+
+-
+
+8–
+
+Haute vallée de la Mosson
+Objectif
+
+ZONES ROUGES
+Clauses réglementaires
+
+Zones
+SONT ADMIS
+R – RU1
+
+REDUCTION DE LA
+R – RU1
+VULNERABILITE
+DES BIENS ET
+ACTIVITES.
+MISE EN SECURITE
+DES PERSONNES
+
+MAINTIEN DU
+LIBRE
+ECOULEMENT ET
+DE LA CAPACITE
+D’EXPANSION DES
+CRUES
+
+CAMPINGS EXISTANTS
+• L’exploitation des cam;pings et caravanages strictement limitée aux dispositions des arrêtés qui
+
+les réglementent.
+
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+
+R – RU1
+
+•
+
+Les forages A.E.P.
+
+R – RU1
+
+•
+
+Les équipements d'intérêt général, lorsque leur implantation est techniquement irréalisable hors du champ
+d'inondation, ou visant à la protection contre les inondations. Une étude hydraulique devra en définir les
+conséquences amont et aval et déterminer leur impact sur l'écoulement des crues, les mesures compensatoires à
+adopter visant à en annuler les effets et les conditions de leur mise en sécurité. Elle devra en outre faire apparaître les
+conséquences d'une crue exceptionnelle.
+
+R – RU1
+
+•
+
+Les piscines au niveau du terrain naturel. Un balisage permanent du bassin sera mis en place afin d'assurer la
+sécurité des personnes et des services de secours.
+
+R – RU1
+
+•
+
+Les ouvrages hydrauliques d’intérêt général et de protection indispensables à la régulation des crues après étude
+hydraulique.
+
+R – RU1
+
+•
+
+La création ou modification de clôtures légères (3 fils ou grillagées à mailles larges) sur mur de soubassement d'une
+hauteur inférieure ou égale à 0,20 m.
+
+-9-
+
+Haute vallée de la Mosson
+Objectif
+
+ZONES ROUGES
+Clauses réglementaires
+
+Zones
+SONT ADMIS
+
+MAINTIEN DU
+CHAMP
+D’EXPANSION
+DES CRUES
+
+REDUCTION DE
+LA
+VULNERABILITE
+DES BIENS ET
+ACTIVITES
+
+TERRASSEMENTS
+R – RU1
+
+•
+
+Les terrassements après étude hydraulique qui définirait les conséquences amont et aval, et dont
+l’objectif serait de nature à préserver le stockage ou l’expansion des eaux de crues.
+
+R – RU1
+
+•
+
+La réalisation de réseaux enterrés sous réserve qu’ils ne soient pas vulnérables aux crues.
+
+R – RU1
+
+•
+
+La réalisation de petites voiries secondaires et peu utilisées ( voies piétonnes, pistes cyclables, voies
+rurales et communales ) au niveau du terrain naturel et qui ne créent pas d’obstacle à l’écoulement des
+crues.
+
+ENTRETIEN DU LIT MINEUR
+R – RU1
+EVITER
+L’AGGRAVATION
+DU PHENOMENE
+R – RU1
+INONDATION
+
+R – RU1
+
+•
+
+L’entretien du lit mineur par déboisement sélectif ou enlèvement des atterrissements après procédure
+d’autorisation conformément aux dispositions de la Loi sur l’Eau.
+
+•
+
+L’entretien des berges par reboisement des talus érodés et entretien sélectif de la ripisylve,
+conformément aux orientation du SDAGE.
+
+•
+
+Voir en fin des dispositions générales les dispositions constructives relatives aux bâtiments.
+
+- 10 -
+
+ZONES ROUGES
+
+Haute vallée de la Mosson
+Objectif
+
+Clauses réglementaires
+
+Zones
+SONT ADMIS
+MODES CULTURAUX
+
+R
+REDUCTION DE
+LA
+VULNERABILITE
+DES BIENS ET
+ACTIVITES
+
+•
+
+Les modes culturaux, la constitution de haies vives, dont les conséquences peuvent être le ralentissement
+des écoulements ou l'augmentation de la capacité de stockage des eaux, sans toutefois créer d'obstacle à
+leur écoulement sous forme de barrage
+
+UTILISATIONS DU SOL
+
+R – RU1
+
+•
+
+Les parcs de stationnement des véhicules sous réserve qu’ils soient organisés et réglementés à partir d’un
+dispositif d’annonces de crues.
+
+- 11 -
+
+Haute vallée de la Mosson
+
+ZONE BLEUE Bn
+
+La zone bleue correspond à une zone d’expansion des crues ou les hauteurs d’eau en crue centennale sont
+inférieures à 0,50m
+On distingue deux types de zones bleues :
+• La zone bleue Bn : pour les secteurs naturels, très faiblement bâtis et qui constituent un champ de dispersion de
+l’énergie des crues qu’il convient de préserver
+• La zone bleue Bu : pour les secteurs déjà fortement urbanisés
+
+Objectif
+
+Clauses réglementaires
+I – ZONE BLEUE Bn
+
+EVITER L’AGGRAVATION DU
+PHENOMENE INONDATION
+
+SONT INTERDITS :
+•
+
+Tous travaux de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous,
+intitulé "SONT ADMIS"
+
+UTILISATIONS DU SOL
+•
+
+Les dépôts de matériaux susceptibles d'être emportés en cas de crue
+
+• Tous remblais modifiant les conditions d'écoulement ou le champ d'expansion des crues et en
+
+particulier les endiguements
+•
+
+Les dépôts et stockages de produits dangereux ou polluants
+
+• Les occupations et activités temporaires (parcs d'attraction, fêtes foraines .....) en dehors du 15 mars au
+
+15 septembre et sous réserve de s’assurer des conditions météorologiques.
+
+-12 -
+
+ZONE BLEUE Bn
+
+Haute Vallée de la Mosson
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+
+REDUIRE OU SUPPRIMER LA
+VULNERABILITE DES BIENS ET
+ACTIVITES.
+MISE EN SECURITE DES PERSONNES
+
+•
+
+Les travaux d'entretien et de gestion courants (traitements de façades, réfections de toitures, peintures)
+
+•
+
+L’extension des bâtiments d’habitations dans la limite de 20 m2 d’emprise au sol (une seule fois) et leur
+modification, sous réserve :
+
+−
+−
+
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE,
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne crée pas
+d'obstacle à l'écoulement,
+que l'extension s’accompagne de mesures compensatoires de nature à diminuer la vulnérabilité du
+bâtiment lui-même, à améliorer la sécurité des personnes et à favoriser l’écoulement des eaux,
+et que les travaux envisagés ne soient pas de nature à créer un changement de l’usage des locaux sauf
+s’ils sont de nature à réduire le risque.
+
+• L'extension des bâtiments d'activités, industries ou agricoles, jusqu’à 20 % de l’emprise au sol (une seule
+
+fois) sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE,
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne crée pas
+d'obstacle à l'écoulement,
+− ετ que l'extension n'accroisse pas la vulnérabilité du bâtiment lui-même
+
+-13 -
+
+Haute Vallée de la Mosson
+
+ZONE BLEUE Bn
+
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CAMPINGS EXISTANTS
+• L’implantation d’HLL dans les campings peut être autorisée sous réserve que le niveau de la sous-face du
+plancher soit au minimum à l’altitude de la PHE
+• Dans les campings sont en outre admis les travaux d’entretien strictement liés à l’amélioration de la
+qualité d’accueil sous réserve qu’ils ne créent pas d’incidence sur l’écoulement des crues.
+
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+•
+
+Tous travaux d'aménagements sportifs et d’équipements légers d’animation et de loisirs de plein air
+
+•
+
+Les surfaces de plancher pour des locaux non habités et strictement liées aux activités autorisées à
+l’alinéa précédent tels que sanitaires, vestiaires, locaux à matériels, sous réserve que la sous face des
+planchers soit calée à la cote de la PHE et que les conséquences de ces aménagements sur l’écoulement
+des crues soient négligeables.
+
+•
+
+Les piscines implantées au niveau du terrai naturel. Un balisage permanent du bassin sera mis en place
+afin d’assurer la sécurité des personnes et des services de secours.
+
+-14 -
+
+Haute Vallée de la Mosson
+
+ZONE BLEUE Bn
+
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+• Les équipements d'intérêt général, lorsque leur implantation est techniquement irréalisable hors du champ
+
+d'inondation. Une étude hydraulique devra en définir les conséquences amont et aval et déterminer leur
+impact sur l'écoulement des crues, les mesures compensatoires à adopter, visant à en annuler les effets et
+les conditions de leur mise en sécurité. Elle devra en outre faire apparaître les conséquences d'une crue
+exceptionnelle.
+•
+
+Les ouvrages hydrauliques d’intérêt général indispensables à la régulation des crues après étude
+hydraulique
+
+•
+
+Les forages A.E.P.
+
+• Tous travaux d’aménagements, sans création de remblais, destinés à créer des parcs
+
+et
+
+jardins d’agréments
+•
+
+La création ou modification de clôtures légères (3 fils ou grillagées) sur mur de soubassement d’une
+hauteur inférieure ou égale à 0.20 m
+
+TERRASSEMENTS
+MAINTIEN DU LIBRE ECOULEMENT ET
+DE LA CAPACITE D’EXPANSION DES
+CRUES
+
+•
+
+Les terrassements, après étude hydraulique qui en définirait la conséquence amont et aval, et dont
+l'objectif serait de nature à faciliter l’écoulement et à préserver le stockage ou l’expansion des eaux de
+crues.
+
+• La réalisation de réseaux enterrés sous réserve qu'ils ne soient pas vulnérables aux crues
+•
+
+La réalisation de petites voiries secondaires et peu utilisées (voies piétonnes, pistes cyclables, voies
+rurales et communales) et qui ne créent pas d’obstacle à l’écoulement des crues.
+
+-15-
+
+Haute Vallée de la Mosson
+
+ZONE BLEUE Bn
+
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+Voir en fin des dispositions générales les recommandations relatives aux dispositions constructives.
+ENTRETIEN DU LIT MINEUR
+• L’entretien du lit mineur par déboisement sélectif ou enlèvement des atterrissements après procédure
+
+d’autorisation conformément aux dispositions de la Loi sur l’eau.
+• L’entretien des berges par reboisement des talus érodés et entretien sélectif de la ripisylve conformément
+EVITER l’AGGRAVATION DU
+PHENOMENE INONDATION
+
+aux orientations et préconisations du SDAGE
+
+MODES CULTURAUX
+• Les serres nécessaires à l’activité agricole, à condition :
+
+-
+
+qu’il s’agisse de seres-tunnel ou plastique sur arceaux
+qu’elles soient disposées dans le sens principal du courant,
+qu’elles soient distantes entre elles d’au moins 5 m
+qu’elles ne nuisent pas au bon écoulement ou au stockage des eaux
+
+UTILISATION DU SOL
+• Le parc de stationnement des véhicules.
+
+-16-
+
+Haute Vallée de la Mosson
+
+ZONE BLEUE Bu
+
+Objectif
+
+Clauses réglementaires
+II – LA ZONE BLEUE Bu
+
+SONT INTERDITS :
+EVITER L’AGGRAVATION DU
+PHENOMENE INONDATION
+
+•
+
+Tous travaux, de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous,
+intitulé "SONT ADMIS"
+
+•
+
+Tous remblais modifiant les conditions d’écoulement ou le champ d’expansion des crues et en
+particulier les endiguements sauf s'ils sont de nature à protéger des lieux fortement urbanisés
+
+SONT ADMIS :
+REDUIRE OU SUPPRIMER LA
+VULNERABILITE DES BIENS ET
+ACTIVITES
+MISE EN SECURITE DES PERSONNES
+
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+• L’entretien, la modification et l’extension de constructions existantes sous réserve de ne pas créer de
+
+surface de plancher en-dessous de la cote de PHE
+
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+• La création de constructions nouvelles, sous réserve :
+- que la sous face du premier plancher aménagé soit calée à la cote de PHE ,
+- et de ne pas créer de surfaces de garages ou pièces annexes en-dessous du niveau de la cote de PHE
+sauf exceptions liées à des contraintes architecturales imposées par le règlement d’urbanisme de la
+commune
+
+-17 -
+
+Haute Vallée de la Mosson
+
+ZONE BLEUE Bu
+
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+• La création d’ouvrages de protection rapprochée dans les lieux fortement urbanisés après étude
+
+hydraulique définissant les conséquences amont et aval
+• Les piscines au niveau du terrain nature. Un balisage permanent du bassin sera mis en place afin d’assurer
+
+la sécurité des personnes et des services de secours.
+
+TERRASSEMENTS
+MAINTIEN DU LIBRE ECOULEMENT
+ET DE LA CAPACITE D’EXPANSION
+DES CRUES
+
+• Les travaux de terrassement, après étude hydraulique définissant les conséquences amont et aval, qui sont
+
+nature à protéger les lieux déjà fortement urbanisés.
+• La réalisation de réseaux enterrés, sous réserve qu’ils ne soient pas vulnérables aux crues.
+• La réalisation de petites voiries (voies piétonnes, pistes cyclables, voies rurales et communales) au niveau
+
+du sol
+• Le stockage de produits polluants nécessaires à la consommation individuelle sous réserve qu’il soit réalisé
+
+LIMITATION DES EFFETS INDUITS
+« PRESCRIPTIONS »
+
+dans des récipients étanches et protégés contre les effets de l’inondation centennale
+
+UTILISATION DU SOL
+• Les parcs de stationnement des véhicules.
+
+-18 -
+
+
+
+##########END##########
+Plan de Prévention
+des Risques d'Inondation
+
+SERVICE URBANISME
+Bureau Eau
+Environnement
+Et Risques
+
+Basse Vallée du Lez et de la Mosson
+
+COMMUNE DE MONTPELLIER
+2 ° - REGLEMENT
+Révision
+Procédure
+
+18 – 06 - 2002
+Prescription
+
+24 – 07 - 2003
+Enquête Publique
+
+13 – 01 - 2004
+Approbation
+
+PORTEE DU REGLEMENT - DISPOSITIONS GENERALES
+
+I/ Champ d'application :
+Le présent règlement s'applique au territoire de la commune de Montpellier délimité sur le plan de zonage du Plan de Prévention des
+Risques Naturels prescrit par arrêté préfectoral en date du 18 Juin 2002.
+Il détermine les mesures de protection et de prévention à mettre en oeuvre pour les risques naturels d'inondation.
+Conformément aux dispositions de l'article 3 du décret n° 95-1089 du 5 octobre 1995, le territoire concerné est divisé en 3 zones
+principales :
+−
+−
+−
+
+la zone Rouge "R", pour les zones inondables naturelles, peu ou non urbanisée, d’aléa indifférencié,
+la zone Rouge "RU", pour les zones inondables urbanisées d’aléa fort,
+la zone bleue "BU", pour les zones inondables urbanisées exposées à des risques moindres correspondant aux champs
+d'expansion des crues.
+
+Les zones "RA", "RM", "BH" , "BU1", et "V" sont également utilisées afin de répondre à certaines conditions définies par le présent
+règlement.
+En application de la loi du 13 juillet 1982 relative à l'indemnisation des victimes des catastrophes naturelles, le présent règlement fixe
+les dispositions applicables aux biens et activités existants ainsi qu'à l'implantation de toutes constructions et installations, à l'exécution
+de tous travaux et à l'exercice de toutes activités, sans préjudice de l'application des autres législations réglementaires en vigueur.
+
+- 1 -
+
+II/ Les effets du P.P.R. et du règlement :
+La nature et les conditions d'exécution des techniques de prévention prises pour l'application du présent règlement, sont définies et
+mises en oeuvre sous la responsabilité du maître d'ouvrage et du maître d'oeuvre concernés pour les constructions, travaux et
+installations visés.
+
+Le P.P.R. vaut servitude d'utilité publique, les mesures de prévention définies par le P.P.R. s'imposent à toutes constructions, travaux,
+installations et activités entrepris ou exercés. Cette servitude doit être annexée au plan d'occupation des sols.
+
+Les biens et activités existants antérieurement à la publication de ce plan de prévention continuent de bénéficier du régime général de
+garantie prévu par la loi.
+Pour les biens et activités créés postérieurement à sa publication le respect des dispositions du P.P.R. conditionne la possibilité pour
+l'assuré, de bénéficier de la réparation des dommages matériels directement occasionnés par l'intensité anormale d'un agent naturel,
+sous réserve que soit constaté par arrêté interministériel l'état de catastrophe naturelle.
+
+Conformément à l'article 5 du décret n° 95-1089 du 5 octobre 1995, les mesures de prévention prévues par le Plan de Prévention des
+Risques Naturels Prévisibles concernant les biens existants antérieurement à sa publication, ne peuvent entraîner un coût supérieur à
+10 % de la valeur vénale des biens concernés.
+Ces mesures individuelles doivent être prises dans un délai de 5 ans après l'approbation du PPR. Elles peuvent concerner une mise en
+sécurité au regard de l'inondation des différents réseaux (électricité, eau, assainissement), des appareils ménagers (chauffe-eau,
+chaudières, compteur électrique ...) et éventuellement la mise en place de systèmes d'étanchéité du bâtiment lui-même.
+Les dispositions de ce règlement constituent des mesures minimales de prévention individuelles ou collectives. Il appartient aux
+différents maîtres d'ouvrages de prendre en compte les risques affichés, et de prévoir les mesures de prévention en conséquence.
+
+- 2 -
+
+Il revient au maître d'ouvrage de chaque opération, de choisir les mesures adéquates lui permettant, dans la limite des 10 % de la
+valeur vénale des biens, de justifier, en cas de sinistre, qu'il a mis en oeuvre les mesures de prévention nécessaires.
+
+Afin de pouvoir édicter des règles simples et dont la mise en oeuvre présente le moins de difficultés possibles, il est nécessaire de bien
+définir les repères d'altitude qui serviront de calage aux différentes prescriptions du règlement :
+−
+
+La cote N.G.F. du terrain est le niveau du terrain naturel avant travaux
+
+Toute demande d’autorisation en zone inondable devra être accompagnée d’un levé topographique rattaché aux altitudes normales
+IGN 69 dressé par un géomètre expert à l’échelle correspondant à la précision altimétrique de 0,10 m
+
+−
+
+le niveau des Plus Hautes Eaux (P.H.E.) est la cote NGF atteinte par la crue centennale calculée ou cote des plus hautes eaux
+connues si celle-ci est supérieure à la crue centennale calculée.
+
+C'est la cote de P.H.E. + 0.30m qui servira à caler la sous-face du 1er plancher aménagé
+
+- 3 -
+
+III/ Règles générales
+1- Carrières
+Les demandes d'ouverture et d'exploitation de carrières, sablières ou gravières font l'objet d'une instruction de la part des services de la
+D.R.I.R.E. (Direction Régionale de l'Industrie et de la Recherche).
+Elles devront être conformes aux orientations du SDAGE approuvé le 20.12.96 et au schéma départemental des carrières.
+2 - Travaux en rivière
+Les installations, ouvrages, travaux et activités dans le lit des cours d'eau sont susceptibles d'être soumis à déclaration ou autorisation
+au titre de la loi sur l'eau.
+Pour tous travaux relatifs à la ripisylve, il convient de se référer aux orientations et préconisations du SDAGE.
+3 - Maîtrise des eaux pluviales
+Conformément aux dispositions de l'article 35 de la Loi 92.3 sur l'eau, la commune doit, afin de se prémunir des risques d'inondabilité
+liés au ruissellement pluvial urbain en cas de pluie intense, définir :
+− les zones où des mesures doivent être prises pour limiter l'imperméabilisation des sols et pour assurer la maîtrise du débit et de
+l'écoulement des eaux pluviales et de ruissellement,
+− les zones où il est nécessaire de prévoir des installations pour assurer la collecte, le stockage et le traitement éventuels des eaux
+pluviales et de ruissellement.
+Afin de limiter les ruissellements pluviaux, en l’absence de schéma d’assainissement pluvial communal, toute opération d'urbanisation
+nouvelle entrant dans le cadre de la loi sur l'eau devra prévoir les mesures compensatoires suffisantes pour permettre une rétention des
+eaux pluviales dans la proportion de 100 litres/m2 imperméabilisés.
+4 - Alerte aux crues
+La commune devra mettre en place dans un délai d'un an après l'approbation du PPR, tenir et diffuser un plan d'alerte et de secours en
+cas d'inondation.
+5 - Travaux de protection
+Il est souhaitable que l'étude de travaux de protection des zones densément urbanisées soit engagée dans les plus brefs délais après
+l'approbation du PPR, soit par la commune, soit par un syndicat de communes sur un périmètre élargi au bassin versant.
+Ces travaux, autorisés dans le règlement ci-dessous et fortement encouragés par l'Etat dans le cadre des textes réglementaires ou des
+possibilités de subvention, doivent être menés dans les meilleurs délais.
+
+- 4 -
+
+IV/ DISPOSITIONS CONSTRUCTIVES
+Mesures de prévention dans le cadre de constructions en zones inondables
+Techniques particulières à mettre en oeuvre sous la responsabilité du maître d'ouvrage et de son maître d'oeuvre dans le cadre
+de constructions nouvelles ou de travaux sur le bâti existant, en zone inondable.
+− Les fondations, murs et parties de la structure situés au-dessous de la cote de référence devront comporter sur leur partie
+supérieure une arase étanche. Les matériaux de ces structures sensibles à la corrosion devront être traités avec des produits
+hydrofuges ou anti-corrosifs.
+− Les constructions seront fondées dans le sol de façon à résister à des affouillements, à des tassements ou à des érosions détaillées.
+Elles devront être capables de résister à la pression hydrostatique.
+− Les matériaux de second-oeuvre (cloisons, menuiseries, portes...etc) et les revêtements (sols, murs...) situés au-dessous de la cote
+de référence seront réalisés avec des matériaux insensibles à l'eau, ou correctement traités.
+− Les réseaux extérieurs d'eau, de gaz et d'électricité doivent être dotés d'un dispositif de mise hors-service, ou bien réalisés
+entièrement au-dessus de la cote de référence.
+− Les réseaux d'assainissement nouvellement réalisés doivent être étanches et munis de clapets anti-retour. Les bouches d'égouts
+doivent être verrouillées.
+− Les équipements électriques doivent être placés au-dessus de la cote de référence, à l'exception des dispositifs d'épuisement ou de
+pompage.
+− Les aménagements autorisés ne devront pas conduire à la création de stocks de produits ou objets de valeur, vulnérables à l'eau, endessous de la cote de référence.
+− Les citernes enterrées ou non et les citernes sous pression ainsi que tous les récipients contenant des hydrocarbures, du gaz,des
+engrais liquides, des pesticides, et d'une façon générale, tous les produits sensibles à l'humidité, devront être protégés contre les
+effets de la crue centennale (mises hors d'eau ou fixées et rendues étanches).
+
+- 5 -
+
+− Le stockage des produits polluants, quelle que soit leur quantité ou concentration, devra être réalisé dans des récipients étanches et
+protégés contre les effets de l' inondation centennale. La nomenclature de ces produits est fixée par la législation sur les
+installations classées, et par le Règlement Sanitaire Départemental.
+− Les piscines doivent disposer d'un système de balisage permanent de façon à pouvoir en visualiser l'emprise en cas de crue.
+− Les clôtures et les plantations d'alignement doivent être étudiées de façon à leur préserver une transparence maximale à
+l'écoulement.
+− Il est recommandé d'éviter les aménagements concourant à imperméabiliser de grandes surfaces, sauf à prévoir des bassins de
+rétention suffisamment dimensionnés, ou des procédés limitant le ruissellement.
+− En particulier, en matière de pluvial, il convient de rechercher la mise en oeuvre de techniques, compensatoires à l'urbanisme,
+favorisant l'infiltration des eaux pluviales sur place (tranchées filtrantes, puits d'infiltration, chaussées réservoir...).
+− Il est recommandé d'augmenter les surfaces boisées, de limiter les défrichements de façon à réduire les volumes de ruissellement et
+en étaler les effets.
+− Une attention particulière doit être accordée aux modes culturaux, à la constitution de haies vives, dont les conséquences peuvent
+être le ralentissement des écoulements, ou l'augmentation de la capacité de stockage des eaux sans toutefois créer d'obstacle à leur
+écoulement sous forme de barrage.
+
+- 6 -
+
+ZONES ROUGES "R"
+
+Montpellier
+
+ZONE ROUGE « R » : pour les zones inondables naturelles, peu ou non urbanisées, d’aléa indifférencié
+ZONE ROUGE « RA » : pour la zone inondable située à la confluence du Lez et du ruisseau des Aiguerelles
+ZONE ROUGE « RM » : pour les moulins situés à l’intérieur de la zone inondable du Lez
+
+Objectif
+
+Clauses réglementaires
+SONT INTERDITS
+
+DISPOSITIONS
+GENERALES
+
+•
+
+Tous travaux, de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous, (intitulé "SONT ADMIS"), et
+notamment :
+− les reconstructions de bâtiments dont tout ou partie du gros œuvre a été endommagé par une crue,
+− les constructions nouvelles et les créations de logements,
+− les créations d’ouverture en dessous de la côte de PHE lorsqu'elle a été définie,
+− la création et l’extension des sous sols,
+− les créations de campings et parcs résidentiels de loisirs ainsi que l’augmentation de leur capacité.
+
+UTILISATIONS DU SOL
+•
+
+Les dépôts de matériaux et conditionnements susceptibles d'être emportés ou de gêner l'écoulement des eaux en cas de crue.
+
+•
+
+Tous remblais modifiant les conditions d’écoulement ou le champ d’expansion des crues et en particulier les endiguements
+sauf s'ils sont de nature à protéger des lieux fortement urbanisés. Ce point d’interdiction ne concerne pas la zone « RA ».
+
+•
+
+Les dépôts et stockages de produits dangereux ou polluants.
+
+•
+
+Les occupations et activités temporaires (parcs d'attraction, fêtes foraines, marché .....) en dehors de la période du 1er
+mai au 31 août et sous réserve de s’assurer des conditions météorologiques.
+
+- 7 -
+
+ZONES ROUGES "R"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+
+MAINTENIR ET
+AMELIORER
+L’ACTIVITE
+EXISTANTE
+
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+• Les travaux d'entretien et de gestion courants (traitements de façades, réfection de toiture, peinture...).
+•
+
+Les aménagements ou adaptations visant à améliorer la sécurité des biens et des personnes.
+
+•
+
+Les modifications de constructions sans changement de destination, sauf s'il est de nature à réduire la vulnérabilité du bâtiment et des
+personnes (et notamment sans création de logement supplémentaire), et sous réserve que les travaux envisagés s'accompagnent de
+dispositions visant à diminuer la vulnérabilité du bâtiment lui-même, à améliorer la sécurité des personnes ou à favoriser l'écoulement
+des eaux.
+
+•
+
+L'extension de bâtiments d'habitation existants dans la limite de 20 m² d'emprise au sol (une seule fois), sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire, elle
+sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain naturel,
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne créé pas d'obstacle à l'écoulement,
+− que l'extension s'accompagne de mesures compensatoires de nature à diminuer la vulnérabilité du bâtiment lui-même, à améliorer la
+sécurité des personnes et à favoriser l'écoulement des eaux.
+
+•
+
+L'extension des bâtiments d'activités, industries ou agricoles, jusqu'à 20 % de l'emprise au sol (une seule fois) sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm, lorsqu'elle a été définie. Dans le cas contraire, elle
+sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain naturel,
+− de prendre en compte les impératifs d'écoulement des crues, que leur implantation ne créé pas d'obstacle à l'écoulement, et que
+l'extension n'accroisse pas la vulnérabilité du bâtiment lui-même.
+Exceptionnellement, en cas de contrainte architecturale majeure, cette disposition pourra être levée si des dispositifs permettant de
+diminuer la vulnérabilité du bâti et des personnes sont mis en place (refuge à l’étage, batardeaux…).
+
+•
+
+La reconstruction d'un bâtiment sinistré, sauf si la cause du sinistre est l'inondation. Dans ce cas, la reconstruction ne sera autorisée qu'à
+condition que la sous-face du 1er plancher aménagé et la surface des annexes soient calées à la cote de P.H.E. + 30 cm lorsqu'elle a été
+définie. Dans le cas contraire, elle sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est
+supérieure au terrain naturel.
+
+•
+
+Pour les secteurs correspondants aux moulins du Lez classés en zones rouges « RM », les modifications de construction avec
+changement de destination ou d’activité, mais sans création de logements supplémentaires, et sous réserve qu’elles n’aggravent pas la
+vulnérabilité des biens et des personnes et qu’elles ne constituent pas un obstacle aux écoulements.
+- 8 -
+
+ZONES ROUGES "R"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+Les forages A.E.P.
+Les équipements d'intérêt général, notamment les infrastructures linéaires et les équipements qui y sont directement liés, lorsque
+leur implantation est techniquement irréalisable hors du champ d'inondation, ou visant à la protection contre les inondations. Une
+étude hydraulique devra en définir les conséquences amont et aval et déterminer leur impact sur l'écoulement des crues, les
+mesures compensatoires à adopter visant à en annuler les effets et les conditions de leur mise en sécurité. Elle devra en outre faire
+apparaître les conséquences d'une crue exceptionnelle.
+• Les piscines au niveau du terrain naturel. Un balisage permanent du bassin sera mis en place afin d'assurer la sécurité des
+personnes et des services de secours.
+• La création ou modification de clôtures légères (3 fils ou grillagées à mailles larges) sur mur de soubassement d'une hauteur
+inférieure ou égale à 0,20 m.
+• Les parcs de stationnement des véhicules, non imperméabilisés, sous réserve qu'ils soient organisés et réglementés à partir d'un
+dispositif d'annonces de crues.
+MAINTIEN DU LIBRE
+ECOULEMENT ET DE • Tous travaux d'aménagements sportifs et d’équipements légers d’animation et de loisirs de plein air sans création de remblais et
+sous réserve qu’ils ne créent pas d’obstacle à l’écoulement des crues.
+LA CAPACITE
+D’EXPANSION DES
+• La création de surfaces de plancher pour des locaux non habités et strictement limités aux activités autorisées à l’alinéa précédent
+CRUES
+tels que sanitaires, vestiaires, locaux à matériels, lorsque leur implantation est techniquement irréalisable hors du champ
+d'inondation, et sous réserve :
+− que la sous-face des planchers soit calée à la côte de la PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire, elle sera
+calée au minimum à 50 cm au dessus du terrain naturel ou de la voie d'accès lorsqu'elle est supérieure au terrain naturel.
+− que les conséquences de ces aménagements sur l’écoulement des crues soient négligeables.
+•
+•
+
+Pour le secteur « RA », tous travaux de terrassement en vue d’un aménagement paysager permettant de retrouver à minima un
+volume d’expansion de crue identique à celui de la situation avant aménagement. Ces travaux devront faire l’objet d’une étude
+hydraulique visant à définir la faisabilité de tels travaux et la nature de la procédure au titre d la Loi sur l’Eau.
+Pour les zones « R » correspondant aux bassins de rétention actuels, aucune des constructions, aucun des ouvrages nouveaux
+précédemment cités ne sont admis, à l'exception des aménagements sportifs et d'équipements légers d'animation et de loisirs de plein
+air, sans création de remblai et sous réserve qu'ils ne créent pas d'obstacle aux écoulements.
+- 9 -
+
+ZONES ROUGES "R"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CAMPINGS EXISTANTS
+• L'exploitation des campings et caravanages strictement limitée aux dispositions des arrêtés qui les réglementent.
+TERRASSEMENTS
+• Les terrassements après étude hydraulique qui en définirait les conséquences amont et aval, et dont l'objectif serait de nature à
+faciliter l’écoulement et à préserver le stockage ou l’expansion des eaux de crues.
+
+EVITER
+L’AGGRAVATION DU
+PHENOMENE
+INONDATION
+
+•
+
+La réalisation de réseaux enterrés sous réserve qu'ils ne soient pas vulnérables aux crues.
+
+•
+
+La réalisation de petites voiries secondaires et peu utilisées (voies piétonnes, pistes cyclables, voies rurales et communales) au
+niveau du terrain naturel et qui ne créent pas d’obstacle à l’écoulement des crues.
+
+ENTRETIEN DU LIT MINEUR
+•
+
+L'entretien du lit mineur par déboisement sélectif ou enlèvement des atterrissements après procédure d'autorisation conformément
+aux dispositions de la Loi sur l'eau.
+
+•
+
+L'entretien des berges par reboisement des talus érodés et entretien sélectif de la ripisylve, conformément aux orientations et aux
+préconisations du SDAGE.
+
+MODES CULTURAUX
+•
+
+Les modes culturaux, la constitution de haies vives, dont les conséquences peuvent être le ralentissement des écoulements ou
+l'augmentation de la capacité de stockage des eaux, sans toutefois créer d'obstacle à leur écoulement sous forme de barrage.
+
+•
+
+Les serres nécessaires à l'activité agricole, à condition :
+− qu'il s'agisse de serres-tunnel ou plastique sur arceaux,
+− qu'elles soient disposées dans le sens principal du courant,
+
+−
+−
+
+qu'elles soient distantes entre elles d'au moins 5 m,
+qu'elles ne nuisent pas au bon écoulement ou au stockage des eaux.
+- 10 -
+
+ZONES ROUGES "RU"
+
+Montpellier
+
+ZONE ROUGE « RU » : correspond aux zones inondables densément urbanisées soumises à un aléa fort
+(zones d’écoulement principal et champs d’expansion des crues où la hauteur d'eau pour la crue de référence est supérieure à 0,50 m)
+
+Objectif
+DISPOSITIONS
+GENERALES
+
+Clauses réglementaires
+SONT INTERDITS
+•
+
+Tous travaux, de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous, (intitulé "SONT ADMIS")
+et notamment :
+− Les reconstructions de bâtiments dont tout ou partie du gros œuvre a été endommagé par une crue,
+− Les constructions nouvelles,
+− Les constructions ou aménagements à caractère vulnérable telles que : écoles, crèches, établissements sanitaires,
+installations classées ...
+− Les créations d’ouverture en dessous de la côte de PHE,
+− La création et l’extension des sous sols,
+− Les créations de campings et parcs résidentiels de loisirs ainsi que l’augmentation de leur capacité.
+
+UTILISATIONS DU SOL
+•
+
+Les dépôts de matériaux et conditionnements susceptibles d'être emportés ou de gêner l'écoulement des eaux en cas de crue.
+
+•
+
+Tous remblais modifiant les conditions d’écoulement ou le champ d’expansion des crues et en particulier les endiguements
+sauf s'ils sont de nature à protéger des lieux fortement urbanisés.
+
+•
+
+Les dépôts et stockages de produits dangereux ou polluants.
+
+•
+
+Les occupations et activités temporaires (parcs d'attraction, fêtes foraines, marché .....) en dehors de la période du 1er
+mai au 31 août et sous réserve de s’assurer des conditions météorologiques.
+
+- 11 -
+
+ZONES ROUGES "RU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+
+MAINTENIR ET
+AMELIORER
+L’ACTIVITE
+EXISTANTE
+
+•
+
+La reconstruction d'un bâtiment sinistré, sauf si la cause du sinistre est l'inondation. Dans ce cas, la reconstruction ne sera
+autorisée que si la sous-face du 1er plancher aménagé et la surface des annexes soient calées à la cote de P.H.E.+ 30 cm
+lorsqu'elle a été définie. Dans le cas contraire, elle sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie
+d'accès lorsqu'elle est supérieure au terrain naturel.
+
+•
+
+Les travaux d'entretien et de gestion courants (traitements de façades, réfection de toiture, peinture...).
+
+•
+
+Les aménagements ou adaptations visant à améliorer la sécurité des biens et des personnes.
+
+•
+
+Les modifications de constructions sans changement de destination, sous réserve que les travaux envisagés s'accompagnent de
+dispositions visant à diminuer la vulnérabilité du bâtiment lui-même, à améliorer la sécurité des personnes ou à favoriser
+l'écoulement des eaux.
+
+REDUCTION DE LA
+VULNERABILITE
+•
+DES BIENS ET
+ACTIVITES.
+MISE EN SECURITE •
+DES PERSONNES
+
+•
+
+Les modifications de constructions avec changement de destination allant dans le sens d’une diminution de la vulnérabilité des
+personnes et des biens.
+Les créations de logements, d’activités ou de surface habitable, sous réserve que la sous-face des planchers soit calée au
+minimum à la côte de PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire, elle sera calée au minimum à 50 cm audessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain naturel.
+Exceptionnellement, en cas de contrainte architecturale majeure, cette disposition pourra être levée pour les créations d’activités
+si des dispositifs permettant de diminuer la vulnérabilité du bâti et des personnes sont mis en place (refuge à l’étage,
+batardeaux…).
+L'extension de bâtiments d'habitation existants dans la limite de 20 m² d'emprise au sol (une seule fois), sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire,
+elle sera calée au minimum à 50 cm au-dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain
+naturel,
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne créé pas d'obstacle à l'écoulement,
+− que l'extension s'accompagne de mesures compensatoires de nature à diminuer la vulnérabilité du bâtiment lui-même, à
+améliorer la sécurité des personnes et à favoriser l'écoulement des eaux.
+- 12 -
+
+ZONES ROUGES "RU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+• L'extension des bâtiments d'activités, industriels ou agricoles, jusqu'à 20% de l'emprise au sol (une seule fois) sous réserve :
+
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm, lorsqu'elle a été définie. Dans le cas
+contraire, elle sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure
+au terrain naturel,
+− de prendre en compte les impératifs d'écoulement des crues, que leur implantation ne créé pas d'obstacle à l'écoulement,
+− et que l'extension n'accroisse pas la vulnérabilité du bâtiment lui-même.
+Exceptionnellement, en cas de contrainte architecturale majeure, cette disposition pourra être levée si des dispositifs
+permettant de diminuer la vulnérabilité du bâti et des personnes sont mis en place (refuge à l’étage, batardeaux…).
+
+MAINTIEN DU
+LIBRE
+ECOULEMENT ET
+DE LA CAPACITE
+D’EXPANSION DES
+CRUES
+
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+• Les équipements d'intérêt général, lorsque leur implantation est techniquement irréalisable hors du champ d'inondation, ou
+visant à la protection contre les inondations. Une étude hydraulique devra en définir les conséquences amont et aval et
+déterminer leur impact sur l'écoulement des crues, les mesures compensatoires à adopter visant à en annuler les effets et les
+conditions de leur mise en sécurité. Elle devra en outre faire apparaître les conséquences d'une crue exceptionnelle.
+• Les forages A.E.P.
+• Les piscines au niveau du terrain naturel. Un balisage permanent du bassin sera mis en place afin d'assurer la sécurité des
+personnes et des services de secours.
+• La création ou modification de murs de clôtures sous réserve qu’au moins 10% de la superficie située au dessous de la côte de
+PHE soit transparente aux écoulements (portails ajourés, grillages, barbacanes…).
+• Tous travaux d'aménagements sportifs et d’équipements légers d’animation et de loisirs de plein air sans création de remblais
+et sous réserve qu’ils ne créent pas d’obstacle à l’écoulement des crues.
+• La création de surfaces de plancher pour des locaux non habités et strictement limités aux activités autorisées à l’alinéa
+précédent tels que sanitaires, vestiaires, locaux à matériels, lorsque leur implantation est techniquement irréalisable hors du
+champ d'inondation, et sous réserve :
+− que la sous face des planchers soit calée à la côte de la PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire, elle
+sera calée au minimum à 50 cm au dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain
+naturel,
+− que les conséquences de ces aménagements sur l’écoulement des crues soient négligeables.
+• Les parcs de stationnement des véhicules sous réserve qu'ils soient organisés et réglementés à partir d'un dispositif d'annonces
+de crues.
+- 13 -
+
+ZONES ROUGES "RU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CAMPINGS EXISTANTS
+• L'exploitation des campings et caravanages strictement limitée aux dispositions des arrêtés qui les réglementent.
+
+MAINTIEN DU
+LIBRE
+ECOULEMENT ET
+DE LA CAPACITE
+D’EXPANSION DES
+CRUES
+
+•
+
+Dans les campings sont en outre admis les travaux d’aménagement et d’entretien strictement liés à l’amélioration de la qualité
+d’accueil sous réserve qu’ils ne créent pas d’incidence sur l’écoulement des crues.
+
+TERRASSEMENTS
+•
+
+Les terrassements après étude hydraulique qui en définirait les conséquences amont et aval, et dont l'objectif serait de nature à
+faciliter l’écoulement et à préserver le stockage ou l’expansion des eaux de crues.
+
+•
+
+La réalisation de réseaux enterrés sous réserve qu'ils ne soient pas vulnérables aux crues.
+
+•
+
+La réalisation de petites voiries secondaires et peu utilisées (voies piétonnes, pistes cyclables, voies rurales et communales) au
+niveau du terrain naturel et qui ne créent pas d’obstacle à l’écoulement des crues.
+
+ENTRETIEN DU LIT MINEUR
+•
+
+L'entretien du lit mineur par déboisement sélectif ou enlèvement des atterrissements après procédure d'autorisation
+conformément aux dispositions de la Loi sur l'eau.
+
+•
+
+L'entretien des berges par reboisement des talus érodés et entretien sélectif de la ripisylve, conformément aux orientations et
+aux préconisations du SDAGE.
+
+- 14 -
+
+ZONE BLEUE "BU"
+
+Montpellier
+
+Zone bleue "BU" : correspond aux zones inondables densément urbanisées exposées à des risques moindres
+(champs d'expansion des crues où les hauteurs d'eau pour la crue de référence sont inférieures à 0,50 m)
+Zone bleue "BU1" : correspond aux zones inondables en bordure sud-ouest de l’avenue du Père Soulas
+
+Objectif
+
+Clauses réglementaires
+A l’intérieur de la zone « BU1 », sont concernées par les clauses suivantes uniquement les parcelles dont la cote du point le plus
+bas est inférieure à celle de l’axe de l’avenue du Père Soulas au droit de la parcelle majorée de 50 cm.
+
+EVITER
+L’AGGRAVATION
+DU PHENOMENE
+INONDATION
+
+SONT INTERDITS :
+•
+
+Tous travaux de quelque nature qu'ils soient, à l'exception de ceux visés au paragraphe ci-dessous, intitulé "SONT ADMIS"
+et notamment :
+− les reconstructions de bâtiments dont tout ou partie du gros œuvre a été endommagé par une crue,
+− les constructions à caractère vulnérable telles que : écoles, crèches, établissements sanitaires, installations classées…
+− la création et l’extension des sous sols,
+− les créations de campings et parcs résidentiels de loisirs.
+
+UTILISATIONS DU SOL
+•
+
+Les dépôts de matériaux susceptibles d'être emportés en cas de crue.
+
+•
+
+Tous remblais modifiant les conditions d'écoulement ou le champ d'expansion des crues et en particulier les endiguements.
+
+•
+
+Les dépôts et stockages de produits dangereux ou polluants.
+
+•
+
+Les occupations et activités temporaires (parcs d'attraction, fêtes foraines .....) en dehors du 15 mars au 15 septembre et
+sous réserve de s’assurer des conditions météorologiques.
+
+- 15 -
+
+ZONE BLEUE "BU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+•
+
+Les travaux d'entretien et de gestion courants (traitements de façades, réfections de toitures, peintures).
+
+•
+
+Les aménagements ou adaptations visant à améliorer la sécurité des biens et des personnes.
+
+•
+
+Les modifications de constructions sans changement de destination, sous réserve que les travaux envisagés s'accompagnent de
+dispositions visant à diminuer la vulnérabilité du bâtiment lui-même, à améliorer la sécurité des personnes ou à favoriser
+l'écoulement des eaux.
+
+REDUCTION DE LA
+VULNERABILITE
+DES BIENS ET
+•
+ACTIVITES.
+MISE EN SECURITE
+Ÿ
+DES PERSONNES
+
+MAINTENIR ET
+AMELIORER
+L’ACTIVITE
+EXISTANTE
+
+•
+
+Les modifications de constructions avec changement de destination allant dans le sens d’une diminution de la vulnérabilité des
+personnes et des biens.
+Les créations de logements, de surface habitable ou d’activités, sous réserve que la sous-face des planchers soit calée au
+minimum à la cote de PHE + 30 cm lorsqu'elle a été définie. Dans le cas contraire, elle sera calée au minimum à 50 cm au
+dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain naturel. Pour la « zone BU1 », elle sera
+calée 50cm au dessus de la cote de l’axe de l’avenue du Père Soulas au droit de l’aménagement.
+Exceptionnellement, en cas de contrainte architecturale majeure, cette disposition pourra être levée pour les créations
+d’activités si des dispositifs permettant de diminuer la vulnérabilité du bâti et des personnes sont mis en place (refuge à
+l’étage, batardeaux…).
+L'extension des bâtiments d'habitations, d'activités industrielles ou agricoles, sous réserve :
+− que la sous-face du 1er plancher aménagé soit calée à la cote de PHE + 30 cm, lorsqu'elle a été définie. Dans le cas
+contraire, elle sera calée au minimum à 50 cm au-dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure
+au terrain naturel. Pour la zone « BU1 », elle sera calée à 50cm au dessus de la cote de l’axe de l’avenue du Père Soulas
+au droit de l’aménagement,
+− de prendre en compte les impératifs d'écoulement des crues et que leur implantation ne crée pas d'obstacle à l'écoulement,
+− que l'extension n'accroisse pas la vulnérabilité du bâtiment lui-même.
+Exceptionnellement, en cas de contrainte architecturale majeure, cette disposition pourra être levée pour les créations
+d’activités si des dispositifs permettant de diminuer la vulnérabilité du bâti et des personnes sont mis en place (refuge à
+l’étage, batardeaux…).
+
+- 16 -
+
+ZONE BLEUE "BU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CONSTRUCTIONS ET OUVRAGES NOUVEAUX
+• La création de constructions nouvelles, sous réserve :
+− que la sous-face du premier plancher aménagé soit calée au minimum à la cote de P.H.E. + 30 cm lorsqu'elle a été définie.
+Dans le cas contraire, elle sera calée au minimum à 50 cm au-dessus du terrain naturel, ou de la voie d'accès lorsqu'elle est
+supérieure au terrain naturel. Pour la « zone BU1 », elle sera calée à 50 cm au dessus du niveau de l’axe de l’avenue du
+Père Soulas au droit de l’aménagement.
+− de ne pas créer de surfaces de garages ou pièces annexes en-dessous du niveau de la cote de P.H.E. ou du terrain naturel
+lorsque la P.H.E. n'a pas été définie, sauf exceptions liées à des contraintes architecturales imposées par le règlement
+d'urbanisme de la commune.
+
+MAINTIEN DU LIBRE
+ECOULEMENT ET DE
+LA CAPACITE
+D’EXPANSION DES
+CRUES
+
+•
+
+Les piscines implantées au niveau du terrain naturel. Un balisage permanent du bassin sera mis en place afin d'assurer la
+sécurité des personnes et des services de secours.
+
+•
+
+Les équipements d'intérêt général, lorsque leur implantation est techniquement irréalisable hors du champ d'inondation, ou
+visant à la protection contre les inondations. Une étude hydraulique devra en définir les conséquences amont et aval et
+déterminer leur impact sur l'écoulement des crues, les mesures compensatoires à adopter, visant à en annuler les effets et
+les conditions de leur mise en sécurité. Elle devra en outre faire apparaître les conséquences d'une crue exceptionnelle.
+
+•
+
+Les forages A.E.P.
+
+•
+
+Tous travaux d'aménagements sportifs et d’équipements légers d’animation et de loisirs de plein air sans création de remblais
+et sous réserve qu’ils ne créent pas d’obstacle à l’écoulement des crues.
+
+•
+
+La création ou modification de murs de clôtures sous réserve qu’au moins 10% de la superficie située au-dessous de la côte de
+PHE soit transparente aux écoulements (portails ajourés, grillages, barbacanes…).
+
+•
+
+Les parcs de stationnement des véhicules sous réserve qu'ils soient organisés et réglementés à partir d'un dispositif d'annonces
+de crues.
+
+- 17 -
+
+ZONE BLEUE "BU"
+
+Montpellier
+Objectif
+
+Clauses réglementaires
+SONT ADMIS
+CAMPINGS EXISTANTS
+•
+
+L'exploitation des campings et caravanages strictement limitée aux dispositions des arrêtés qui les réglementent.
+
+•
+
+L’implantation d’H.L.L. dans les campings peut être autorisée sous réserve que le niveau de la sous face du plancher soit au
+
+minimum à l’altitude de la P.H.E. lorsqu'elle a été définie. Dans le cas contraire, elle sera calée au minimum à 50 cm au
+dessus du terrain naturel ou, de la voie d'accès lorsqu'elle est supérieure au terrain naturel.
+Dans les campings sont en outre admis les travaux d’aménagement et d’entretien strictement liés à l’amélioration de la qualité
+d’accueil sous réserve qu’ils ne créent pas d’incidence sur l’écoulement des crues.
+MAINTIEN DU LIBRE
+ECOULEMENT ET DE
+LA CAPACITE
+D’EXPANSION DES
+CRUES
+
+TERRASSEMENTS
+•
+
+Les terrassements, après étude hydraulique qui en définirait la conséquence amont et aval, et dont l'objectif serait de nature à
+faciliter l’écoulement et à préserver le stockage ou l’expansion des eaux de crues.
+
+•
+
+La réalisation de réseaux enterrés sous réserve qu'ils ne soient pas vulnérables aux crues.
+
+•
+
+La réalisation de petites voiries secondaires et peu utilisées (voies piétonnes, pistes cyclables, voies rurales et communales)
+et qui ne créent pas d’obstacle à l’écoulement des crues.
+
+- 18 -
+
+ZONE BLEUE "BH"
+
+Montpellier
+
+Zone bleue "BH" (monuments historiques) : pour le domaine Bonnier de la Mosson situé en zone inondable d’aléa
+indifférencié et qui présente un intérêt patrimonial de type monument historique.
+
+Objectif
+
+Clauses réglementaires
+Le règlement est identique à celui des zones « BU », à l’exception des clauses suivantes :
+
+SONT INTERDITS :
+EVITER
+L’AGGRAVATION
+DU PHENOMENE
+INONDATION
+
+CONSTRUCTIONS ET OUVRAGES EXISTANTS
+•
+
+La création de logements, de surface habitable ou d’activités pérennes à caractère vulnérable par rapport aux inondations en
+dessous de la cote de P.H.E. .
+
+SONT ADMIS :
+MAINTENIR ET
+AMELIORER
+L’ACTIVITE
+EXISTANTE
+
+•
+
+La réhabilitation et la reconstruction en vue de retrouver l’état initial de bâtiments présentant un intérêt historique, esthétique,
+et architectural avéré, sous réserve qu’une crue ne soit pas à l’origine de leur dégradation ou de leur destruction.
+
+•
+
+La création de logements, de surface habitable ou d’activités pérennes au dessus de la cote de PHE.
+
+- 19 -
+
+ZONE VIOLETTE "V"
+
+Montpellier
+
+Zone violette « V » : correspond aux axes d'écoulement préférentiel en cas de débordement et de ruissellement de surface
+diffus, où l'aléa est difficile à caractériser.
+
+Objectif
+
+MAINTIEN
+DU LIBRE
+ECOULEMENT
+DES EAUX
+
+Clauses réglementaires
+
+SONT INTERDITS :
+
+•
+
+Tous travaux, de quelque nature que ce soit, susceptibles de faire significativement obstacle aux écoulements, à l'exception de
+ceux qui auront fait l'objet d'une étude hydraulique spécifique précisant le fonctionnement de la zone avant et après travaux,
+l'incidence sur les écoulements et les mesures compensatoires permettant de ne pas aggraver la situation.
+
+- 20 -
+
+
+
+##########END##########
+PPRif
+PLAN DE PRÉVENTION
+DES RISQUES NATURELS PRÉVISIBLES
+D’INCENDIES DE FORÊT
+
+COMMUNE DE GRABELS
+
+Règlement
+
+PRESCRIPTION PAR
+ENQUÊTE PUBLIQUE PAR
+APPROBATION PAR
+
+A. P. N° 2005 -0 I - 1853
+A. P. N° 2007 –01-1056
+A. P. N° 2008 –01-190
+
+DU 26 JUILLET 2005
+ER
+DU 1 JUIN 2007
+DU 30 JANVIER 2008
+
+ETABLI PAR LA DIRECTION DÉPARTEMENTALE
+DE L ’AGRICULTURE ET DE LA FORÊT
+
+Place Chaptal
+CS 69506
+34960 MONTPELLIER Cedex 2
+Tél. : 04.67.34.28.63 – Fax : 04.67.34.29.66
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Sommaire :
+Préambule
+
+Page 3
+
+1
+
+Page 4
+
+Zone A
+
+1.1 Projets nouveaux
+1.1.1 Constructions nouvelles interdites
+1.1.2 Constructions admises avec prescriptions
+1.1.3 Reconstruction d’un bâtiment existant
+1.1.4 Règles de constructions
+1.2 Constructions existantes
+1.3 Débroussaillement
+2
+2.1
+2.2
+2.3
+2.4
+
+Zone B1
+
+Projets nouveaux
+Mise en sécurité des projets nouveaux
+Mise en sécurité des constructions existantes
+Débroussaillement
+
+3
+
+Zone B2
+
+3.1 Projets nouveaux
+3.2 Mise en sécurité des constructions existantes
+3.3 Débroussaillement
+4
+
+Recommandations indicatives
+
+Page 4
+Page 4
+Page 4
+Page 4
+Page 6
+Page 7
+Page 8
+Page 9
+Page 9
+Page 13
+Page 16
+Page 16
+
+Page 17
+Page 17
+Page 19
+Page 19
+Page 20
+
+4.1 Applicables aux zones A, B1 et B2
+4.2 Applicable à la zone B2
+
+Page 20
+Page 20
+
+Annexe I
+
+Page 21
+
+Page
+
+2
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Préambule
+Les zones de « danger » (zone A) concernent principalement les grands espaces
+naturels exposés aux incendies de forêt. De même, lorsque des zones d’aléa
+moindre, même nul, de petite superficie existent à l’intérieur des zones de danger,
+elles sont automatiquement considérées comme des zones de danger et classées en
+zone A.
+Les zones A sont des zones où l’aléa est fort à très fort où l’implantation de nouvelles
+constructions est interdite.
+S’il existe à l’intérieur de ces zones des constructions existantes, celles-ci doivent
+mettre en œuvre des prescriptions individuelles justifiées par leur exposition
+particulière au risque d’incendie de forêt.
+Les zones de « précaution forte » (zone B1) sont des zones où l’aléa est fort et où
+les constructions isolées et l’habitat diffus sont proscrits.
+Les zones B1 sont des zones tampon avec les zones de danger ou des zones
+potentiellement urbanisables en urbanisation non isolée. Implantés en continuation
+d’une urbanisation existante, les projets urbains sont autorisés suivant des
+prescriptions constructives précises et des normes d’accessibilité et d’hydrant bien
+définies. Une bande de 50 mètres, traitée afin d’en diminuer la combustibilité et la
+puissance d’un feu, sera positionnée chaque fois que cela se présentera en interface
+avec la zone A et à l’intérieur du périmètre urbanisé.
+Les zones de « précaution » (zone B2) sont des zones où l’aléa est encore présent
+mais où l’urbanisation occupe la majeure partie de l’espace.
+Les zones B2 sont des zones déjà fortement urbanisées où une densification urbaine
+est souhaitée. Une urbanisation totale de ces espaces avec une garantie de
+l’accessibilité et du réseau d’hydrants sera de nature à réduire significativement le
+risque.
+
+Le débroussaillement et le maintien en état débroussaillé cités dans le présent
+règlement sont à réaliser selon les modalités prévues par l’arrêté préfectoral 2004-I907 du 13 avril 2004 modifié par l’arrêté préfectoral n° 2005-01-539 du 7 mars 2005
+et complété par l’arrêté préfectoral n° 2007-1-703 du 4 avril 2007.
+
+Page
+
+3
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+1. Zone A (zone de danger)
+
+1.1 Projets nouveaux :
+1.1.1 La zone A (rouge) correspond à la zone de danger, avec un aléa feu de
+forêt fort pouvant générer un risque potentiellement fort où toutes les
+constructions nouvelles, l’implantation nouvelle d’habitations légères
+de loisirs et les nouveaux stationnements de caravanes sont
+interdits ;
+1.1.2 Cependant, peuvent être admis avec prescriptions sous réserve d’être
+réalisés conformément aux prescriptions constructives et de ne pas créer
+de nouveaux logements, ce qui aggraverait le risque :
+1.1.2.1 Les aménagements, travaux et ouvrages destinés à protéger la forêt
+ou les constructions existantes ;
+1.1.2.2 Les locaux techniques permettant d’assurer la gestion des
+équipements de lutte contre les incendies de forêt ;
+1.1.2.3 Les locaux techniques nécessaires à l’exploitation agricole (y compris
+sylvicole) sauf locaux d’habitation ou d’accueil du public ;
+1.1.2.4 Les travaux d’entretien et de gestion courante ainsi que les travaux
+de mise aux normes de confort des bâtiments implantés
+antérieurement à l’approbation du présent plan ;
+1.1.2.5 Les changements de destination des constructions ou leur extension ;
+1.1.2.6 Les annexes des bâtiments d’habitation, sous réserve qu’elles ne
+fassent pas l’objet d’une occupation humaine permanente et qu’elles
+se situent à moins de 20 mètres du bâtiment d’habitation ;
+1.1.2.7 Les infrastructures publiques (réseaux routiers, ferrés, de transport et
+de distribution téléphonique ou électrique) ;
+1.1.2.8 Les réparations effectuées sur un bâtiment partiellement sinistré ;
+1.1.2.9 Les équipements nécessaires au fonctionnement des services publics
+(cimetières, déchetteries …) à l’exclusion de tout bâtiment abritant
+une activité humaine permanente.
+
+1.1.3 La reconstruction d’un bâtiment existant détruit est subordonnée à la
+réalisation préalable des prescriptions relatives à la défense extérieure
+contre l’incendie (voir ci-dessous 1.1.3.1) ainsi qu’à l’accessibilité depuis
+une voie ouverte à la circulation publique (voir ci-dessous 1.1.3.2). Les
+règles de construction précisées au 1.1.4 seront alors applicables.
+1.1.3.1 Sont considérés comme disposant d’une défense extérieure contre
+l’incendie, les constructions dont l’entrée est située à moins de 150 mètres
+(cent cinquante mètres) mesurés suivant l’axe de la voie ou du chemin qui
+
+Page
+
+4
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+relie l’entrée principale de la construction à un point d’eau réglementaire (cf.
+schéma n°1).
+Un point d’eau réglementaire est constitué indifféremment soit par un poteau
+ou bouche d’incendie (hydrant) relié à un réseau de distribution d’eau
+permettant de réaliser un débit de 60 m³/h sous une pression dynamique de 1
+bar pendant 2 heures, soit un réservoir doté d’une prise d’eau normalisée,
+accessible aux véhicules de lutte contre l’incendie et capable de fournir un
+volume de 120 m³ pendant deux heures.
+Les hydrants devront être distants entre eux de 200 mètres maximum par les
+voies carrossables.
+
+Schéma n° 1
+Mode de
+calcul de la
+desserte par
+le réseau de
+distribution
+d’eau.
+
+1.1.3.2 Sont considérées comme accessibles depuis une voie ouverte à la
+circulation publique, les constructions situées à moins de 100 mètres (cent
+mètres mesurés suivant l’axe de la voie ou du chemin qui relie l’entrée de la
+construction à la voie ouverte à la circulation publique accessible aux engins
+de secours - cf. schéma n°2) d’une voirie ouverte à la circulation publique
+normalisée.
+Est considérée comme normalisée une voie ouverte à la circulation publique
+présentant les caractéristiques suivantes :
+• Largeur minimale de la bande de roulement : 4 mètres (bandes réservées
+au stationnement exclues) ;
+• Force portante pour un véhicule de 160 kilos-newtons avec un maximum
+de 90 kilos-newtons par essieu, ceux-ci étant distants de 3,60 mètres au
+minimum ;
+• Résistance au poinçonnement : 80 newtons/cm² sur une surface maximale
+de 0,20 m² ;
+• Rayon intérieur des tournants de 9 mètres minimum ;
+• Pente inférieure à 15 % ;
+
+Page
+
+5
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+•
+•
+
+•
+
+Hauteur libre autorisant le passage d’un véhicule de 4 mètres de hauteur.
+Ces voies se termineront sur un point de retournement, calculé sur la
+base des prescriptions techniques générales du SDIS de l’Hérault (Té de
+retournement, placette circulaire, comportant des tournants dont le rayon
+intérieur doit être supérieur ou égal à 9 mètres ;
+Débroussaillement et maintien en état débroussaillé.
+
+Schéma n° 2
+Mode de
+calcul de la
+desserte par
+les voies
+ouvertes à la
+circulation
+publique.
+
+1.1.4 Règles de construction :
+Enveloppes : Enveloppes des bâtiments constituées par des murs en dur
+présentant une durée coupe feu d’une demi-heure. Revêtements de façades
+présentant un critère de réaction au feu MO*, parties de façades incluses dans le
+volume des vérandas comprises.
+Ouvertures : Ensemble des ouvertures occultables par des dispositifs présentant
+une durée coupe feu d’une demi-heure.
+Jointures assurant un maximum d’étanchéité, parties de façades incluses dans le
+volume, vérandas comprises.
+Couvertures : Revêtements de couvertures classés en catégorie MO*, partie de
+couverture incluse dans le volume des vérandas comprises.
+Toutefois, les revêtements de couvertures classés en catégorie M1*, M2*, M3*
+peuvent être utilisés s’ils sont établis sur un support continu en matériau
+incombustible ou en panneaux de bois ou tout autre matériau reconnu équivalent
+par le comité d’étude et de classification des matériaux (CECM) et des éléments
+de construction par rapport au danger d’incendie.
+Pas de partie combustible à la jonction entre la toiture et les murs.
+
+Page
+
+6
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Conduits extérieurs des cheminées :
+n Equipés dans leur partie située au-delà de leur débouché en toiture
+d’un clapet coupe feu d’une demi-heure et actionnables depuis
+l’intérieur de la construction ;
+n Réalisés en matériau MO* et présentant une durée coupe feu d’une
+demi-heure depuis leur débouché en toiture jusqu’au niveau du
+clapet coupe feu et munis d’un pare-étincelles en partie supérieure.
+Conduites et canalisations diverses : Conduites et canalisations desservant
+l’habitation et apparentes à l’extérieur présentant une durée coupe feu de
+traversée d’une demi-heure.
+Gouttières et descentes d’eau : Gouttières et descentes d’eau réalisées en
+matériaux M1* minimum.
+Auvents : Toitures réalisées en matériaux M1* minimum et ne traversant pas les
+murs d’enveloppe de la construction.
+Barbecues : Barbecues fixes, constituant une dépendance d’habitation, équipés
+de dispositifs pare étincelles et de bac de récupération des cendres situés hors
+de l’aplomb de toute végétation.
+* Norme technique de classement de la résistance au feu des matériaux. L’arrêté
+ministériel du 30 juin 1983 modifié par les arrêtés ministériels des 28 août 1991,
+21 novembre 2002 (JO n°304 du 31 décembre 2002) rectificatif annexes 3 et 4
+(JO du 15 février 2003) et du 13 août 2003 (JO du 5 septembre 2003), établit ce
+classement.
+
+1.2
+
+Constructions existantes :
+
+Les réserves de combustibles extérieures sont interdites à moins de 10 mètres
+des constructions.
+Les propriétaires, exploitants ou utilisateurs de citernes ou réserves aériennes
+d’hydrocarbures liquides ou liquéfiés procéderont à l’enfouissement ou à la
+suppression de celles-ci.
+Les conduites d’alimentation depuis ces citernes jusqu’aux constructions seront
+enfouies à une profondeur permettant une durée coupe-feu d’une demi-heure
+(aucun passage à l’air ne sera maintenu).
+Toutefois si l’enfouissement des citernes et des canalisations s’avère
+techniquement difficilement réalisable (sol rocheux…), celles-ci devront être
+ceinturées par un mur de protection en maçonnerie pleine de 0,1 mètres
+d’épaisseur au moins (ou tout autre élément incombustible présentant une
+résistance mécanique équivalente), et dont la partie supérieure dépasse de 0,5
+mètres au moins celles des orifices des soupapes de sécurité. Le périmètre situé
+autour des ouvrages devra être exempt de tout matériau ou végétal combustible
+sur une distance de 4 mètres mesurée à partir du mur de protection.
+
+Page
+
+7
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+L’ensemble des travaux de mise en sécurité des constructions existantes est à la
+charge du propriétaire et doit être réalisé dans les meilleurs délais à compter de
+la date d’approbation du présent PPR, et sans excéder les cinq ans prévus à
+l’article 5 du Décret n° 95-1089 du 5 octobre 1995, modifié par le Décret n° 20053 du 4 janvier 2005.
+
+1.3
+
+Débroussaillement
+
+Sur l’ensemble de la zone de danger, la profondeur de débroussaillement est
+autorisée à 100 mètres (cent mètres) mais obligatoire à 50 mètres (cinquante
+mètres) autour des constructions de toute nature, habitations et bâtiments
+d’accueil du public à la charge du propriétaire des constructions de toute nature,
+des habitations et des bâtiments d’accueil du public même s’il faut débroussailler
+sur la propriété d’autrui.
+
+Le débroussaillement de mise en sécurité dans la zone de danger doit être
+réalisé dans les meilleurs délais à compter de la date d’approbation du présent
+PPR, et sans excéder une année. Le maintien en état débroussaillé sera
+constant.
+Article 5 du décret n° 95-1089 du 5 octobre 1995, modifié par le Décret n° 2005-3
+du 4 janvier 2005.
+
+Page
+
+8
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Zones B1 et B2 (zones de précaution)
+La zone bleue, ou zone de précaution, est subdivisée en deux zones :
+•
+•
+
+B1 (bleu foncé) - précaution forte : nouvelles constructions isolées interdites,
+autres constructions autorisées sous prescriptions ;
+B2 (bleu clair) - précaution : constructions autorisées sous prescriptions.
+
+2. Zone B1 – zone de précaution forte :
+2.1 Projets nouveaux
+2.1.1 Tout nouveau bâtiment individuel isolé est interdit :
+Un bâtiment n’est pas isolé lorsqu’il se situe à moins de 50 mètres (cinquante
+mètres) d’au moins deux bâtiments existants (cf. schéma n°3).
+>50m
+
+Schéma n° 3
+Définition du
+bâtiment isolé
+
+2.1.1.1
+Toutefois, dans le périmètre de ZAC, de lotissement ou de
+projet d’urbanisation groupée, cette règle d’isolement n’est pas
+obligatoire dans la mesure où « l’étude de risque d’incendie de forêt »
+(conforme à l’annexe I - page 20) démontre explicitement que le projet
+n’aggrave pas le risque (voir § 2.2.1).
+2.1.1.2
+Cependant, peuvent être admis avec prescriptions sous
+réserve d’être réalisés conformément aux prescriptions constructives et de ne
+pas créer de nouveaux logements, ce qui aggraverait le risque :
+2.1.1.2.1 Les aménagements, travaux et ouvrages destinés à protéger la
+forêt ou les constructions existantes ;
+2.1.1.2.2 Les locaux techniques permettant d’assurer la gestion des
+équipements de lutte contre les incendies de forêt ;
+2.1.1.2.3 Les locaux techniques nécessaires à l’exploitation agricole (y
+compris sylvicole) sauf locaux d’habitation ou d’accueil du public ;
+2.1.1.2.4 Les travaux d’entretien et de gestion courante ainsi que les
+travaux de mise aux normes de confort des bâtiments implantés
+antérieurement à l’approbation du présent plan ;
+
+Page
+
+9
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+2.1.1.2.5 Les changements de destination des constructions ou leur
+extension ;
+2.1.1.2.6 Les annexes des bâtiments d’habitation, sous réserve qu’elles ne
+fassent pas l’objet d’une occupation humaine permanente et
+qu’elles se situent à moins de 20 mètres du bâtiment d’habitation ;
+2.1.1.2.7 Les infrastructures publiques (réseaux routiers, ferrés, de
+transport et de distribution téléphonique ou électrique) ;
+2.1.1.2.8 Les réparations effectuées sur un bâtiment partiellement sinistré ;
+2.1.1.2.9 Les équipements et constructions nécessaires au fonctionnement
+des services publics (cimetières, déchetteries …) à l’exclusion de
+tout bâtiment abritant une activité humaine.
+
+2.1.2 Les constructions nouvelles ne disposant pas d’une défense extérieure
+contre l’incendie sont interdites.
+Sont considérés comme disposant d’une défense extérieure contre
+l’incendie, les constructions dont l’entrée est située à moins de 150 mètres
+(cent cinquante mètres), mesurés suivant l’axe de la voie ou du chemin qui
+relie l’entrée principale de la construction, d’un point d’eau réglementaire (cf.
+schéma n°4).
+Un point d’eau réglementaire est constitué indifféremment soit par un poteau
+ou bouche d’incendie (hydrant) relié à un réseau de distribution d’eau
+permettant de réaliser un débit de 60 m³/h sous une pression dynamique de 1
+bar pendant 2 heures, soit un réservoir doté d’une prise d’eau normalisée,
+accessible aux véhicules de lutte contre l’incendie et capable de fournir un
+volume de 120 m³ pendant deux heures.
+Les hydrants devront être distants entre eux de 200 mètres maximum par les
+voies carrossables.
+
+Schéma n° 4
+Mode de calcul
+de la desserte
+par le réseau
+de distribution
+d’eau.
+
+Page
+
+10
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+2.1.3 Les constructions nouvelles situées à plus de 100 mètres d’une voirie
+ouverte à la circulation publique normalisée* (cent mètres mesurés
+suivant l’axe de la voie ou du chemin qui relie l’entrée de la construction
+à la voie ouverte à la circulation publique accessible aux engins de
+secours – cf. schéma n°5) sont interdites.
+
+§
+§
+§
+§
+§
+§
+§
+
+§
+
+Est considérée comme normalisée une voie ouverte à la circulation publique
+présentant les caractéristiques suivantes :
+Largeur minimale de la bande de roulement : 4 mètres (bandes réservées au
+stationnement exclues) ;
+Force portante pour un véhicule de 160 kilos-newtons avec un maximum de
+90 kilos-newtons par essieu, ceux-ci étant distants de 3,60 mètres au
+minimum ;
+Résistance au poinçonnement : 80 newtons/cm² sur une surface maximale de
+0,20 m² ;
+Rayon intérieur des tournants de 9 mètres minimum ;
+Pente inférieure à 15 % ;
+Hauteur libre autorisant le passage d’un véhicule de 4 mètres de hauteur.
+Ces voies se termineront sur un point de retournement, calculé sur la base
+des prescriptions techniques générales
+du SDIS de l’Hérault (Té de
+retournement, placette circulaire, comportant des tournants dont le rayon
+intérieur doit être supérieur ou égal à 9 mètres ;
+Débroussaillement et maintien en état débroussaillé
+
+Schéma n° 5
+Mode de calcul
+de la desserte
+par les voies
+ouvertes à la
+circulation
+publique.
+
+2.1.4 La création, l’installation ou l’extension des campings, villages de
+vacances, colonies de vacances, habitations légères de loisirs et
+caravanes sont interdites.
+
+Page
+
+11
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+2.1.5 Les installations aériennes de réserves d’hydrocarbures liquéfiés ou
+liquides, ainsi que le passage à l’air libre des canalisations alimentant
+les constructions sont interdites.
+2.1.6 Les opérations d’urbanisme collectives non visées au titre Ier du livre III
+du code de l’urbanisme ou les opérations d’urbanisme visées au titre
+Ier du livre III du code de l’urbanisme et qui ne seraient pas en
+continuité directe avec une zone déjà urbanisée sont interdites (la
+continuité directe s’entend avec une zone de contact d’au minimum de
+200 mètres et au minimum au moins égale au tiers de son périmètre –
+cf. schéma n°6).
+
+Schéma n° 6
+Exemples de
+continuité
+autorisées ou
+non en fonction
+du périmètre total
+et de la longueur
+de la zone de
+contact.
+
+2.1.7 Les ICPE (installations classées pour la protection de l’environnement)
+sont autorisées sous réserve que l’étude de danger de l’ICPE
+démontre explicitement que celle-ci ne présente pas de risque global
+d’incendie de forêt* ou prévoit les parades pérennes permettant de
+limiter ce risque.
+2.1.8 Les ERP (établissements recevant du public) sont autorisés sous
+réserve qu’une étude de risque d’incendie de forêt, réalisée suivant
+les critères listés en annexe I et validée par la DDAF, justifie de la nonaggravation du risque global d’incendie de forêt* ou propose des
+mesures de réduction de l’aléa pérennes permettant de limiter ce
+risque.
+* Le risque global d’incendie de forêt est défini comme le risque
+d’augmenter la probabilité d’éclosion d’un feu ainsi que d’aggraver les
+conséquences du passage possible d’un incendie de forêt.
+
+Page
+
+12
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+2.1.9 La reconstruction d’un bâtiment existant détruit est subordonnée à
+la réalisation préalable des prescriptions relatives à la défense
+extérieure contre l’incendie (voir ci-dessus (2.1.2) ainsi qu’à
+l’accessibilité depuis une voie ouverte à la circulation publique (voir cidessus 2.1.3). Les règles de construction précisées au 2.2.2 ci-après
+sont alors applicables.
+
+2.2 Conditions de mise en sécurité des projets nouveaux :
+
+2.2.1 Toute opération nouvelle d’aménagement visée au titre Ier du livre III du
+code de l’urbanisme (ZAC ou lotissements), comportera obligatoirement
+dans le périmètre en contact avec la zone naturelle ou la zone A, une
+bande de terrain inconstructible de 50 (cinquante) mètres à maintenir en
+état débroussaillé isolant les constructions des terrains en nature de bois,
+forêts, landes, maquis, garrigues, plantations forestières ou
+reboisements. La bande inconstructible ne doit pas englober la totalité de
+l’aménagement, mais doit se situer à l’interface (c’est-à-dire en bordure
+des terrains en nature de bois, forêts, landes, maquis, garrigues,
+plantations forestières ou reboisements), et l’isoler du peuplement
+combustible – cf. schéma n°7.
+
+Schéma n° 7
+Définition de la
+bande de 50 mètres
+d’inconstructibilité
+dans le périmètre de
+l’opération
+d’urbanisme en
+imposant son
+débroussaillement à
+la charge des
+propriétaires des
+constructions
+(protection
+individuelle).
+
+Page
+
+13
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Schéma n° 8
+Jumelage et
+extension
+d’opérations
+d’urbanisme
+et maintien de
+la bande des
+50 mètres.
+
+1
+
+2
+
+3
+
+Deux ou plusieurs opérations nouvelles d’aménagement visées au titre
+Ier du livre III du code de l’urbanisme (ZAC ou lotissements) pourront se jumeler
+dans la mesure où la continuité de la bande de 50 mètres isolant les
+constructions des terrains en nature de bois, forêts, landes, maquis, garrigues,
+plantations forestières ou reboisements est réalisée sur toute la zone d’interface –
+cf. schéma n°8.
+
+Des passages réservés aux véhicules de prévention et de lutte contre les
+incendies de forêt seront aménagés perpendiculairement à la bande
+inconstructible de 50 mètres et tous les 150 mètres maximum, afin d’obtenir une
+communication entre l’espace naturel et la zone ouverte à la circulation publique.
+Si possible, la position de ces passages devra coïncider avec
+l’implantation des hydrants.
+Les opérations d’aménagement visées au titre Ier du livre III du code de
+l’urbanisme non directement en continuité avec une zone déjà urbanisée mais
+bénéficiant d’une « étude de risque d’incendie de forêt » réalisée par l’aménageur
+
+Page
+
+14
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+(conforme à l’annexe I - page 21) seront autorisées après avis favorable de la
+DDAF.
+Toutefois, dans le cadre d’une ZAC, une « étude de risque d’incendie de
+forêt » concernant la totalité du périmètre de la ZAC pourra être réalisée. Cette
+étude vaudra « étude de risque incendie de forêt » pour l’ensemble des
+opérations à réaliser dans le périmètre de la ZAC à l’exception des ICPE.
+Pour chaque ICPE qui s’installera dans le périmètre de la ZAC, l’étude de
+danger de l’ICPE devra démontrer explicitement que celle-ci n’aggravera pas le
+risque global d’incendie de forêt.
+2.2.2 Règles de construction :
+Enveloppes : Enveloppes des bâtiments constituées par des murs en dur
+présentant une durée coupe feu d’une demi-heure. Revêtements de façades
+présentant un critère de réaction au feu MO*, parties de façades incluses dans le
+volume des vérandas comprises.
+Ouvertures : Ensemble des ouvertures occultables par des dispositifs présentant
+une durée coupe feu d’une demi-heure.
+Jointures assurant un maximum d’étanchéité, parties de façades incluses dans le
+volume, vérandas comprises.
+Couvertures : Revêtements de couvertures classés en catégorie MO*, partie de
+couverture incluse dans le volume des vérandas comprises.
+Toutefois, les revêtements de couvertures classés en catégorie M1*, M2*, M3*
+peuvent être utilisés s’ils sont établis sur un support continu en matériau
+incombustible ou en panneaux de bois ou tout autre matériau reconnu équivalent
+par le comité d’étude et de classification des matériaux (CECM) et des éléments
+de construction par rapport au danger d’incendie.
+Pas de partie combustible à la jonction entre la toiture et les murs.
+
+Conduits extérieurs des cheminées :
+n Equipés dans leur partie située au-delà de leur débouché en toiture
+d’un clapet coupe feu d’une demi-heure et actionnables depuis
+l’intérieur de la construction ;
+n Réalisés en matériau MO* et présentant une durée coupe feu d’une
+demi-heure depuis leur débouché en toiture jusqu’au niveau du
+clapet coupe feu et munis d’un pare-étincelles en partie supérieure.
+Conduites et canalisations diverses : Conduites et canalisations desservant
+l’habitation et apparentes à l’extérieur présentant une durée coupe feu de
+traversée d’une demi-heure.
+Gouttières et descentes d’eau : Gouttières et descentes d’eau réalisées en
+matériaux M1* minimum.
+Auvents : Toitures réalisées en matériaux M1* minimum et ne traversant pas les
+murs d’enveloppe de la construction.
+
+Page
+
+15
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Barbecues : Barbecues fixes, constituant une dépendance d’habitation, équipés
+de dispositifs pare étincelles et de bac de récupération des cendres situés hors
+de l’aplomb de toute végétation.
+* Norme technique de classement de la résistance au feu des matériaux.
+L’arrêté ministériel du 30 juin 1983 modifié par les arrêtés ministériels des 28
+août 1991, 21 novembre 2002 (JO n°304 du 31 décembre 2002) rectificatif
+annexes 3 et 4 (JO du 15 février 2003) et du 13 août 2003 (JO du 5
+septembre 2003), établit ce classement.
+
+2.3 Conditions de mise en sécurité des constructions existantes
+Les réserves de combustibles extérieures sont interdites à moins de 10 mètres
+des constructions.
+Les propriétaires, exploitants ou utilisateurs de citernes ou réserves aériennes
+d’hydrocarbures liquides ou liquéfiés procéderont à l’enfouissement ou à la
+suppression de celles-ci.
+Les conduites d’alimentation depuis ces citernes jusqu’aux constructions seront
+enfouies à une profondeur permettant une durée coupe-feu d’une demi-heure
+(aucun passage à l’air ne sera maintenu).
+Toutefois si l’enfouissement des citernes et des canalisations s’avère
+techniquement difficilement réalisable (sol rocheux…), celles-ci devront être
+ceinturées par un mur de protection en maçonnerie pleine de 0,1 mètres
+d’épaisseur au moins (ou tout autre élément incombustible présentant une
+résistance mécanique équivalente), et dont la partie supérieure dépasse de 0,5
+mètres au moins celles des orifices des soupapes de sécurité. Le périmètre situé
+autour des ouvrages devra être exempt de tout matériau ou végétal combustible
+sur une distance de 4 mètres mesurée à partir du mur de protection.
+
+L’ensemble des travaux de mise en sécurité des constructions existantes est à la
+charge du propriétaire et doit être réalisé dans les meilleurs délais à compter de
+la date d’approbation du présent PPR, et sans excéder les cinq ans prévus à
+l’article 5 du décret n°95-1089 du 5 octobre 1995.
+2.4
+
+Débroussaillement :
+
+Sur l’ensemble de la zone de précaution forte, la profondeur de débroussaillement
+est autorisée à 100 mètres (cent mètres) mais obligatoire à 50 mètres (cinquante
+mètres) autour des constructions de toute nature, habitations et bâtiments d’accueil
+du public à la charge du propriétaire des constructions de toute nature, des
+habitations et des bâtiments d’accueil du public même s’il faut débroussailler sur la
+propriété d’autrui.
+
+Page
+
+16
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+3 Zone B2 – zone de précaution :
+3.1 Constructions nouvelles :
+
+3.1.1 Les constructions nouvelles ne disposant pas d’une défense extérieure
+contre l’incendie sont interdites.
+Sont considérés comme disposant d’une défense extérieure contre
+l’incendie, les constructions dont l’entrée est située à moins de 150 mètres
+(cent cinquante mètres mesurés suivant l’axe de la voie ou du chemin qui relie
+l’entrée principale de la construction) d’un point d’eau réglementaire (cf.
+schéma n°9).
+Un point d’eau réglementaire est constitué indifféremment soit par un poteau
+ou bouche d’incendie (hydrant) relié à un réseau de distribution d’eau
+permettant de réaliser un débit de 60 m³/h sous une pression dynamique de 1
+bar pendant 2 heures, soit un réservoir doté d’une prise d’eau normalisée,
+accessible aux véhicules de lutte contre l’incendie et capable de fournir un
+volume de 120 m³ pendant deux heures.
+Les hydrants devront être distants entre eux de 200 mètres maximum par les
+voies carrossables.
+
+Schéma n° 9
+Mode de calcul
+de la desserte
+par le réseau
+de distribution
+d’eau.
+
+3.1.2 Les constructions nouvelles situées à plus de 100 mètres d’une voirie
+ouverte à la circulation publique normalisée sont interdites (cent mètres
+
+Page
+
+17
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+mesurés suivant l’axe de la voie ou du chemin qui relie l’entrée de la
+construction à la voie ouverte à la circulation publique accessible aux
+engins de secours – cf. schéma n°10).
+Est considérée comme normalisée une voie ouverte à la circulation publique
+présentant les caractéristiques suivantes :
+•
+•
+•
+•
+•
+•
+•
+
+•
+
+Largeur minimale de la bande de roulement : 4 mètres (bandes réservées
+au stationnement exclues) ;
+Force portante pour un véhicule de 160 kilos-newtons avec un maximum
+de 90 kilos-newtons par essieu, ceux-ci étant distants de 3,60 mètres au
+minimum ;
+Résistance au poinçonnement : 80 newtons/cm² sur une surface maximale
+de 0,20 m² ;
+Rayon intérieur des tournants de 9 mètres minimum ;
+Pente inférieure à 15 % ;
+Hauteur libre autorisant le passage d’un véhicule de 4 mètres de hauteur.
+Ces voies se termineront sur un point de retournement, calculé sur la base
+des prescriptions techniques générales du SDIS de l’Hérault (Té de
+retournement, placette circulaire, comportant des tournants dont le rayon
+intérieur doit être supérieur ou égal à 9 mètres ;
+Débroussaillement et maintien en état débroussaillé.
+
+Schéma n° 10
+Mode de calcul
+de la desserte
+par les voies
+ouvertes à la
+circulation
+publique.
+
+Page
+
+18
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+3.1.3 La création, l’installation ou l’extension des campings, villages de
+vacances, colonies de vacances, habitations légères de loisirs et
+caravanes sont interdites.
+3.1.4 Les installations aériennes de réserves d’hydrocarbures liquéfiés ou
+liquides, ainsi que le passage à l’air libre des canalisations alimentant les
+constructions sont interdites.
+3.1.5 Les ICPE (installations classées pour la protection de l’environnement)
+sont autorisées sous réserve que l’étude de danger de l’ICPE démontre
+explicitement que celle-ci ne présente pas de risque global d’incendie de
+forêt* ou prévoit les parades pérennes permettant de limiter ce risque.
+* Le risque global d’incendie de forêt est défini comme le risque d’augmenter
+la probabilité d’éclosion d’un feu ainsi que d’aggraver les conséquences du
+passage possible d’un incendie de forêt.
+
+3.2 Conditions de mise en sécurité des constructions existantes :
+Les réserves de combustibles extérieures sont interdites à moins de 10 mètres des
+constructions.
+Les propriétaires, exploitants ou utilisateurs de citernes ou réserves aériennes
+d’hydrocarbures liquides ou liquéfiés procéderont à l’enfouissement ou à la
+suppression de celles-ci.
+Les conduites d’alimentation depuis ces citernes jusqu’aux constructions seront
+enfouies à une profondeur réglementaire (aucun passage à l’air ne sera maintenu).
+Toutefois si l’enfouissement des citernes et des canalisations s’avère
+techniquement difficilement réalisable (sol rocheux…), celles-ci devront être
+ceinturées par un mur de protection en maçonnerie pleine de 0,1 mètres
+d’épaisseur au moins (ou tout autre élément incombustible présentant une
+résistance mécanique équivalente), et dont la partie supérieure dépasse de 0,5
+mètres au moins celles des orifices des soupapes de sécurité. Le périmètre situé
+autour des ouvrages devra être exempt de tout matériau ou végétal combustible
+sur une distance de 4 mètres mesurée à partir du mur de protection.
+
+L’ensemble des travaux de mise en sécurité des constructions existantes est à
+la charge du propriétaire et doit être réalisé dans les meilleurs délais à
+compter de la date d’approbation du présent PPR, et sans excéder les cinq
+ans prévus à l’article 5 du décret n°95-1089 du 5 octobre 1995.
+
+Page
+
+19
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+3.3 Débroussaillement :
+Sur l’ensemble de la zone de précaution, la profondeur de débroussaillement est
+obligatoire à 50 mètres (cinquante mètres) autour des constructions de toute
+nature, habitations et bâtiments d’accueil du public à la charge du propriétaire des
+constructions de toute nature, des habitations et des bâtiments d’accueil du public
+même s’il faut débroussailler sur la propriété d’autrui..
+
+4 . Recommandations indicatives de nature à réduire le risque
+4.1 Applicables aux zones A, B1 et B2 :
+•
+
+Réserves de combustibles solides et tas de bois placés à plus de 10 mètres
+des bâtiments.
+• Elargissement des voies privées desservant les bâtiments pour permettre en
+tout point le croisement de 2 véhicules sans ralentissement, ni manœuvre.
+• Equipement des habitations disposant d’une réserve d’eau (piscine, bassin,
+réservoir) d’une motopompe de 15 m3/h de débit, actionnée par un moteur
+thermique, susceptible d’alimenter une lance de 40/14 avec l’aide de trois
+tuyaux de 45 mm de diamètre et de 20 m de longueur.
+Remise de cet équipement dans un coffre ou une construction incombustible.
+• Curage régulier, et avant la saison estivale, des gouttières (aiguilles et
+feuillages) pour prévenir les risques de mise à feu des toitures.
+4.2 Applicables à la zone B2 :
+• Règles de construction :
+Enveloppes : Enveloppes des bâtiments constituées par des murs en dur
+présentant une durée coupe feu d’une demi-heure. Revêtements de façades
+présentant un critère de réaction au feu MO*, parties de façades incluses dans le
+volume, vérandas comprises.
+Ouvertures : Ensemble des ouvertures occultables par des dispositifs présentant
+une durée coupe feu d’une demi-heure.
+Jointures assurant un maximum d’étanchéité, parties de façades incluses dans le
+volume des vérandas comprises.
+Couvertures : Revêtements de couvertures classés en catégorie MO*, partie de
+couverture incluse dans le volume des vérandas comprises.
+Toutefois, les revêtements de couvertures classés en catégorie M1*, M2*, M3*
+peuvent être utilisés s’ils sont établis sur un support continu en matériau
+incombustible ou en panneaux de bois ou tout autre matériau reconnu équivalent
+par le comité d’étude et de classification des matériaux (CECM) et des éléments
+de construction par rapport au danger d’incendie.
+Pas de partie combustible à la jonction entre la toiture et les murs.
+
+Page
+
+20
+
+PPRIF - REGLEMENT – COMMUNE de GRABELS – 15 novembre 2007
+
+Cheminées : Conduits extérieurs :
+n Equipés dans leur partie située au-delà de leur débouché en toiture
+d’un clapet coupe feu d’une demi-heure et actionnables depuis
+l’intérieur de la construction ;
+n Réalisés en matériau MO* et présentant une durée coupe feu d’une
+demi-heure depuis leur débouché en toiture jusqu’au niveau du
+clapet coupe feu et munis d’un pare-étincelles en partie supérieure.
+Conduites et canalisations diverses : Conduites et canalisations desservant
+l’habitation et apparentes à l’extérieur présentant une durée coupe feu de
+traversée d’une demi-heure.
+Gouttières et descentes d’eau : Gouttières et descentes d’eau réalisées en
+matériaux M1* minimum.
+Auvents : Toitures réalisées en matériaux M1* minimum et ne traversant pas les
+murs d’enveloppe de la construction.
+Barbecues : Barbecues fixes, constituant une dépendance d’habitation, équipés
+de dispositifs pare étincelles et de bac de récupération des cendres situés hors
+de l’aplomb de toute végétation.
+* Norme technique de classement de la résistance au feu des matériaux. L’arrêté
+ministériel du 30 juin 1983 modifié par les arrêtés ministériels des 28 août 1991,
+21 novembre 2002 (JO n°304 du 31 décembre 2002) rectificatif annexes 3 et 4
+(JO du 15 février 2003) et du 13 août 2003 (JO du 5 septembre 2003), établit ce
+classement.
+
+ANNEXE I
+Afin d’être autorisés en zone B1, les projets d’urbanisation groupée et les
+ERP susceptibles d’aggraver le risque global d’incendie de forêt et les
+opérations visées au titre Ier du livre III du code de l’urbanisme non
+directement en continuité avec une zone déjà urbanisée doivent être validés
+par la DDAF sur la base d’une étude de risque d’incendie de forêt, qui
+comportera à minima les points suivants :
+Sur un périmètre d’étude de 200 (deux cents) mètres autour du projet :
+1. Cartographie de l’aléa incendie de forêt ;
+2. Cartographie des enjeux existants ;
+3. Détermination du risque actuel ;
+4. Cartographie des enjeux futurs ;
+5. Détermination du risque futur ;
+6. Mesures de réduction de l’aléa proposées en cas d’aggravation du
+risque ;
+7. Pérennité des mesures proposées ;
+8. Délais et modalités de mise en œuvre en cas d’acceptation.
+Page
+
+21
+
+
+
+##########END##########

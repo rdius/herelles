@@ -1,0 +1,292 @@
+20-03-2023 11:38:56 :: INFO :: Lecture de keywords.txt ... 
+
+20-03-2023 11:38:56 :: INFO :: Début de la recherche de document concernant la ville de Montpellier
+20-03-2023 11:38:56 :: INFO :: Génération des requêtes
+20-03-2023 11:38:59 :: INFO :: Nouvelle requête : "Montpellier" AND ralentissement?des?écoulements	
+
+20-03-2023 11:38:59 :: INFO :: URL : http://katrin.erdlenbruch.free.fr/PoulardEtal_Prevention.pdf
+
+20-03-2023 11:39:04 :: INFO :: Document sauvegardé.
+20-03-2023 11:39:05 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:39:05 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:39:05 :: INFO :: Erreur pour l'URL : http://katrin.erdlenbruch.free.fr/PoulardEtal_Prevention.pdf
+
+20-03-2023 11:39:05 :: INFO :: URL : https://www.herault.gouv.fr/content/download/17553/134627/file/Dossier%20Presse%20Pr%C3%A9sentation%20PAPI%202.pdf
+
+20-03-2023 11:39:05 :: INFO :: Document sauvegardé.
+20-03-2023 11:39:05 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:39:05 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:39:05 :: INFO :: Erreur pour l'URL : https://www.herault.gouv.fr/content/download/17553/134627/file/Dossier%20Presse%20Pr%C3%A9sentation%20PAPI%202.pdf
+
+20-03-2023 11:39:05 :: INFO :: URL : https://www.rhone-mediterranee.eaufrance.fr/sites/sierm/files/content/2020-10/SLGRI_EtangOr_Presentation.pdf
+
+20-03-2023 11:43:14 :: INFO :: Lecture de keywords.txt ... 
+
+20-03-2023 11:43:14 :: INFO :: Début de la recherche de document concernant la ville de Montpellier
+20-03-2023 11:43:14 :: INFO :: Génération des requêtes
+20-03-2023 11:43:17 :: INFO :: Nouvelle requête : "Montpellier" AND ralentissement?des?écoulements	
+
+20-03-2023 11:43:17 :: INFO :: URL : https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-12/010061677.pdf
+
+20-03-2023 11:43:18 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:18 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:18 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:19 :: INFO :: Erreur pour l'URL : https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-12/010061677.pdf
+
+20-03-2023 11:43:19 :: INFO :: URL : https://www.montpellier.fr/4060-inondations-et-risques-naturels-a-montpellier.htm
+
+20-03-2023 11:43:20 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:20 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:43:20 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:20 :: INFO :: Erreur pour l'URL : https://www.montpellier.fr/4060-inondations-et-risques-naturels-a-montpellier.htm
+
+20-03-2023 11:43:20 :: INFO :: URL : http://katrin.erdlenbruch.free.fr/PoulardEtal_Prevention.pdf
+
+20-03-2023 11:43:20 :: INFO :: Le document existe déjà.
+
+20-03-2023 11:43:20 :: INFO :: URL : https://www.herault.gouv.fr/content/download/17553/134627/file/Dossier%20Presse%20Pr%C3%A9sentation%20PAPI%202.pdf
+
+20-03-2023 11:43:20 :: INFO :: Le document existe déjà.
+
+20-03-2023 11:43:20 :: INFO :: URL : http://www2.agroparistech.fr/IMG/pdf/Boubee.pdf
+
+20-03-2023 11:43:20 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:20 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:20 :: ERROR :: cannot format the extracted date.
+Traceback (most recent call last):
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 235, in get_pdf_info
+    val_ = format_to_iso_date(val_)
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 220, in format_to_iso_date
+    ts = strptime(datestring, "%Y%m%d%H%M%S")# "%Y-%m-%dT%H:%M:%S.%fZ" )#
+  File "/usr/lib/python3.10/_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y%m%d%H%M%S'
+20-03-2023 11:43:20 :: ERROR :: Erreur lors de la conversion en texte du pdf.
+Traceback (most recent call last):
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 475, in sauvegarde_fichier_advanced
+    title, p_d = get_pdf_info(src_file_path,logger)
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 253, in get_pdf_info
+    return str(title), str(parser.parse(val_).date())
+  File "/home/rodrique/PycharmProjects/herelles/venv/lib/python3.10/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/rodrique/PycharmProjects/herelles/venv/lib/python3.10/site-packages/dateutil/parser/_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: D:20070718151655
+20-03-2023 11:43:20 :: INFO :: URL : https://www.montpellier.fr/include/viewFile.php?idtf=3426&path=b8%2FWEB_CHEMIN_3426_1180429644.pdf
+
+20-03-2023 11:43:20 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:20 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:20 :: ERROR :: cannot format the extracted date.
+Traceback (most recent call last):
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 241, in get_pdf_info
+    val_ = format_to_iso_date(val_)
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 220, in format_to_iso_date
+    ts = strptime(datestring, "%Y%m%d%H%M%S")# "%Y-%m-%dT%H:%M:%S.%fZ" )#
+  File "/usr/lib/python3.10/_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y%m%d%H%M%S'
+20-03-2023 11:43:20 :: ERROR :: Erreur lors de la conversion en texte du pdf.
+Traceback (most recent call last):
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 475, in sauvegarde_fichier_advanced
+    title, p_d = get_pdf_info(src_file_path,logger)
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 253, in get_pdf_info
+    return str(title), str(parser.parse(val_).date())
+  File "/home/rodrique/PycharmProjects/herelles/venv/lib/python3.10/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/rodrique/PycharmProjects/herelles/venv/lib/python3.10/site-packages/dateutil/parser/_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: D:20060118191547
+20-03-2023 11:43:20 :: INFO :: URL : https://www.rhone-mediterranee.eaufrance.fr/sites/sierm/files/content/2020-10/SLGRI_EtangOr_Presentation.pdf
+
+20-03-2023 11:43:20 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:21 :: ERROR :: Erreur lors de la conversion en texte du pdf.
+Traceback (most recent call last):
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 473, in sauvegarde_fichier_advanced
+    raw_text = convert_pdf_to_txt(src_file_path)
+  File "/home/rodrique/PycharmProjects/herelles/src/collector.py", line 201, in convert_pdf_to_txt
+    completed_process = subprocess.run(["pdftotext", "-q", src_file_path, "-"], stdout=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1139, in communicate
+    stdout = self.stdout.read()
+KeyboardInterrupt
+20-03-2023 11:43:22 :: INFO :: URL : https://www.gesteau.fr/sites/default/files/doc_SAGE06017-1234177583.pdf
+
+20-03-2023 11:43:22 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:22 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:22 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:22 :: INFO :: Erreur pour l'URL : https://www.gesteau.fr/sites/default/files/doc_SAGE06017-1234177583.pdf
+
+20-03-2023 11:43:22 :: INFO :: URL : https://www.gesteau.fr/sites/default/files/2016-livret-gemapi-grands_principes__tome_1.pdf
+
+20-03-2023 11:43:22 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:22 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:22 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:22 :: INFO :: Erreur pour l'URL : https://www.gesteau.fr/sites/default/files/2016-livret-gemapi-grands_principes__tome_1.pdf
+
+20-03-2023 11:43:22 :: INFO :: URL : https://www.herault.gouv.fr/content/download/15169/97575/file/Castelnau_le_Lez_Rapport_etude.pdf
+
+20-03-2023 11:43:23 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:23 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:43:23 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:23 :: INFO :: Erreur pour l'URL : https://www.herault.gouv.fr/content/download/15169/97575/file/Castelnau_le_Lez_Rapport_etude.pdf
+
+20-03-2023 11:43:23 :: INFO :: ***********************************************************************
+
+20-03-2023 11:43:23 :: INFO :: 20-03-2023:11h43 : Nombre limite de requete atteint. Reprise du programme : 20-03-2023:11h43
+20-03-2023 11:43:56 :: INFO :: Nouvelle requête : "Montpellier" AND assainissement	
+
+20-03-2023 11:43:56 :: INFO :: URL : https://www.midilibre.fr/2022/05/15/metropole-de-montpellier-au-1er-janvier-2023-la-gestion-de-lassainissement-passera-en-regie-10295985.php
+
+20-03-2023 11:43:57 :: INFO :: Document sauvegardé.
+20-03-2023 11:43:57 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:43:57 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:43:58 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:43:58 :: INFO :: URL : https://www.societe.com/societe/montpellier-assainissement-789856382.html
+
+20-03-2023 11:44:01 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:01 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:01 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:01 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:01 :: INFO :: URL : https://www.pagesjaunes.fr/annuaire/montpellier-34/assainissement
+
+20-03-2023 11:44:02 :: INFO :: Erreur pour l'URL : https://www.pagesjaunes.fr/annuaire/montpellier-34/assainissement
+
+20-03-2023 11:44:02 :: INFO :: URL : https://www.montpellier-assainissement.fr/
+
+20-03-2023 11:44:03 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:03 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:03 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:03 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:03 :: INFO :: URL : https://www.montpellier.fr/evenement/17193/3624-travaux-de-rehabilitation-des-reseaux-d-assainissement-et-d-eau-potable.htm
+
+20-03-2023 11:44:03 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:03 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:03 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:03 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:03 :: INFO :: URL : https://www.services.eaufrance.fr/donnees/service/215057/2021
+
+20-03-2023 11:44:04 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:04 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:04 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:05 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:05 :: INFO :: URL : https://agence.sarp-assainissement.fr/56-somes-montpellier
+
+20-03-2023 11:44:06 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:06 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:06 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:06 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:06 :: INFO :: URL : https://mp-assainissement.com/
+
+20-03-2023 11:44:08 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:08 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:08 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:08 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:08 :: INFO :: URL : https://www.lemoniteur.fr/article/metropole-de-montpellier-le-futur-de-l-assainissement-s-ecrit-a-la-station-de-lattes.2251531
+
+20-03-2023 11:44:08 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:09 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:09 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:09 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:09 :: INFO :: URL : https://www.montpellier3m.fr/vivre-eau/assainissement
+
+20-03-2023 11:44:10 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:10 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:10 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:10 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:10 :: INFO :: ***********************************************************************
+
+20-03-2023 11:44:10 :: INFO :: 20-03-2023:11h44 : Nombre limite de requete atteint. Reprise du programme : 20-03-2023:11h44
+20-03-2023 11:44:46 :: INFO :: Lecture de keywords.txt ... 
+
+20-03-2023 11:44:46 :: INFO :: Début de la recherche de document concernant la ville de Montpellier
+20-03-2023 11:44:46 :: INFO :: Génération des requêtes
+20-03-2023 11:44:49 :: INFO :: Nouvelle requête : "Montpellier" AND plus?hautes?eaux	
+
+20-03-2023 11:44:49 :: INFO :: URL : https://geo.data.gouv.fr/fr/datasets/80c6a6764c94e8c366b6ba0ee5c2e88104515f62
+
+20-03-2023 11:44:49 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:50 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:50 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:51 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:51 :: INFO :: URL : https://www.ville-lattes.fr/plan-prevention-risques-inondation/
+
+20-03-2023 11:44:54 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:54 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:54 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:54 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:54 :: INFO :: URL : https://data.montpellier3m.fr/datasets/commune/syble
+
+20-03-2023 11:44:55 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:55 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:55 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:55 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:55 :: INFO :: URL : https://www.ernmt-officiel.com/ernmt-officiel/34172/montpellier
+
+20-03-2023 11:44:55 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:55 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:55 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:56 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:56 :: INFO :: URL : https://www.montpellier.fr/include/viewFile.php?idtf=1408&path=d9%2F1408_542_Document-d-information-communal-sur-les-risques-majeurs-DICRIM.pdf
+
+20-03-2023 11:44:56 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:57 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:44:57 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:57 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:57 :: INFO :: URL : https://www.montpellier.fr/include/viewFile.php?idtf=3426&path=b8%2FWEB_CHEMIN_3426_1180429644.pdf
+
+20-03-2023 11:44:57 :: INFO :: Le document existe déjà.
+
+20-03-2023 11:44:57 :: INFO :: URL : https://www.etang-de-l-or.com/uploads/file/Eau/PAPI/PAPI_OR_Synthese-Evenements-Historiques.pdf
+
+20-03-2023 11:44:58 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:58 :: INFO :: Document PDF converti en texte brut.
+20-03-2023 11:44:58 :: INFO :: Texte nettoyé.
+
+20-03-2023 11:44:58 :: INFO :: Document inséré dans l'inventaire.
+
+20-03-2023 11:44:58 :: INFO :: URL : https://data.montpellier3m.fr/dataset/reperes-des-plus-hautes-eaux
+
+20-03-2023 11:44:59 :: INFO :: Document sauvegardé.
+20-03-2023 11:44:59 :: INFO :: Document web converti en texte brut.
+20-03-2023 11:44:59 :: INFO :: Texte nettoyé.
+

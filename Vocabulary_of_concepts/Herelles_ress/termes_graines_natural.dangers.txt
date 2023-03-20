@@ -1,0 +1,105 @@
+aléas
+avalanche
+catastrophe naturelle
+cyclone
+dommage
+évènement naturel
+eruption volcanique
+gestion des risques
+grand froid
+menaces
+phénomènes
+PLU
+PPR
+prévention
+résilience
+séisme
+servitudes d’utilités Publics
+tempête
+tsunami
+urbanisme
+vigilance
+vulnérabilité des milieux
+zonage
+cavité souterraine
+canicule
+mouvement de terrain
+retrait d’argile
+gonflement d’argile
+sécheresse
+brûlage
+canadair
+débroussaillement
+départs de feu
+diffusion
+étincelles
+feu
+feu de forêt
+garrigue
+incendie
+inflammable
+pinède
+propagation
+sapeurs-pompiers 
+vigie-feu
+champ d'expansion des crues
+coulée de boue
+crue
+écoulements torrentiels
+torrents
+épisode Cévénol
+hydraulique
+imperméabilisation
+inondation
+laminage
+nappes souterraines
+nappes captives
+nappes eaux libres
+nappes phréatiques
+perméable
+rétention
+ruissellement
+zone inondable
+zone non saturée
+AFPCN
+Association Française pour la Prévention des Catastrophes Naturelles
+APR
+Analyse Préliminaire des Risques
+AMDE
+Analyse des Modes de défaillances et de leurs Effets
+AMDEC
+Analyse des Modes de défaillances et de leurs Effets et de leur Criticité
+BRGM
+Bureau de Recherche Géologique et Minières
+CEREMA
+Centre d’Etudes et d’expertises sur les Risques, l’Environnement, la Mobilité et l’Aménagement
+DDT
+Direction Départementale des Territoires
+DDTM
+Direction Départementale des Territoires et de la Mer
+DFCI
+Défense de la forêt contre l’Incendie
+DICRIM
+Document d’Informations Communal sur les RIsques Majeurs
+DREAL
+Direction Régionale de l’Environnement, de l’Aménagement et du Logement
+HAZID
+Hazard Identification
+HAZOP
+Hazard Operability
+ORSEC
+Organisation de la Réponse de SEcurité Civile
+PAPI
+Programme d’Actions pour la Prévention des Inondations
+PHEC
+Plus Haute Eau Connue
+PPR
+Plan de Prévention des Risques 
+PPRn
+Plan de Prévention des Risques Naturels
+PPMS
+Plan Particulier de Mise en Sûreté
+PCS
+Plan Communal de Sauvegarde
+SPC
+Service de Prévention des Crues
