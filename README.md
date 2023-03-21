@@ -68,8 +68,9 @@ if __name__ == '__main__':
 ```
 
 
-Visualize the corpus
----------------------
+Visualising the corpus
+-----------------------
+
 ```python
 streamlit run thecob_app.py #run the application
 
