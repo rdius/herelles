@@ -7,13 +7,7 @@ This protocol is designed for the constitution of spatio-temporal and thematic c
 
   * Build a corpus by specifying the thematic keyword, the spatial footprint (e.g, city or territory name).
   * Build automatically associated some metadata for each collected document such as the :
-      * date of publication or modification
-      * title
-      * absolute spatiale named entities provided in the title of the document
-      * pertinence of the document regarding the thematic (this is automatically evaluated during the scrapping...)
-      * url
-      * text
-      * Etc.
+      * date of publication or modification, title, absolute spatiale named entities provided in the title of the document, pertinence of the document regarding the thematic (this is automatically evaluated during the scrapping...), * url, * text, * Etc.
 
 ## How does it work ?
 
